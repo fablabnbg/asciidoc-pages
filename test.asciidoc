@@ -1,0 +1,848 @@
+:toc:
+:toclevels: 2
+:toc-title: Inhaltsverzeichnis
+:toc-placement: right
+:sectanchors:
+:numbered:
+
+       
+'''
+'''
+'''
+'''
+
+
+== ___ KURZANLEITUNG zu: WAS_FINDE_ICH_WO?:
+
+=== ___ DAS PRINZIP:
+
+* Das *derzeit* existierende "Informationsgebäude" des FabLabNbg ist: 
+** *historisch* gewachsen
+** einesteils *excellent* ausgearbeitet
+** andernteils als *Kuddelmuddel* auf unterschiedlichste Weise organisiert
+
+* WAS FINDE ICH WO? soll helfen, eine gewünschte Information zielstrebig zu finden:
+** Dazu schlägt WAS FINDE ICH WO? direkte AdressPfade vor zu existierenden Informationen, Projekten, Festlegungen. 
+** Ist sozusagen ein FabLabNbg-NAVI zum Thema: WAS?___WO_GEREGELT? 
+** Ist hierarchisch & thematisch eigenständig gegliedert...
+** ... völlig unabhängig von Speicherort & Typ & technischer Realisierung & Gliederung der Ziel-Informationen.
+
+* WAS FINDE ICH WO? selbst regelt nichts: 
+** Es ist ein Addendum (Hinzufügung) zu den bisherigen FabLabNbg-Informations- & Verwaltungs-Seiten & Aushängen & mündlichen Vorgaben. 
+** Bestehendes bleibt unverändert erhalten. Irgendein Umlernen von Eingeübtem|Bisherigen ist NICHT notwendig!
+
+* Nutzinhalte von WAS FINDE ICH WO? sind:
+. Suchbegriff, Thema:
+** hierarchisch sortiert
+. Symbolblock als Kurzinfo indbes. bezüglich:
+** betroffenem Personenkreis
+** Voraussetzungen|Beschränkungen
+. Zieladresse(n) zur zutreffenden Information
+** sofern existent
+** im günstigen Fall als Web-Adresse einschl. SubAdresse ...
+** anderfalls mittels "gehe zu / siehe bei" (>>>)-TextAngaben
+. optional: Anmerkungen
+
+=== ___ SYMBOLIK des Symbolblockes:
+
+Den Ziel-Adressen vorangestellte Symbole geben Kurzhinweise zB. zum betroffenen Personenkreis, zu Voraussetzungen (für Betreten & Benutzen & Erwerben & ...), zum Status der Kurzhinweise:
+
+* (ö_        = öffentlich = world
+* (g_        = als Gast im FabLabNbg
+* (m_        = FabLabNbg-Mitglieder = intern.m
+* (v_        = FabLabNbg-Vorstandschaft = intern.v
+* (e_        = Einweisung erforderlich
+* (f_        = Freigabe | einmalige Freischaltung | Zuweisung erforderlich
+* (t_        = aktives =  freigeschaltetes keyfob erforderlich
+* (p_        = zugehöriges Passwort erforderlich
+* (€_        = gegen Bezahlung
+* (?_        = noch zu klären | noch einzutragen
+
+=== ___ sonstige SYMBOLIK & TERMINOLOGIE:
+
+Nicht jedes Symbol | jeder Begriff ist in den adressierten Unterlagen oder in WAS_FINDE_ICH_WO? für jeden sofort & eindeutig verständlich:
+
+* |             = oder .
+* >>>           = gehe zu | siehe bei ....
+* >>>_>         = klicke an | betätige | starte ....
+* FabLabNbg     = FabLab Region Nürnberg e.V.
+* FLN           = FabLab Region Nürnberg e.V.
+* Ding          = "Podio-slang" = Vorhaben, Projekt
+* Kommentar: 
+**              = allg. KommentarText, oder:
+**              = "Podio-slang" = KurzWertung, zB. = XYZ findet das gut!
+* keyfob        = elektronische ZugangsMünze .
+* Ticket        = 
+* Base          = 
+* Lab-Manager   =  
+* Forum         =
+* Workspace     =
+* Event         = Projekt = Podioslang
+* Avatar        = 
+* github        = 
+* Podio         = 
+* Wiki          = 
+* MQTT          = 
+* Badge         = 
+* ??????weitere???????
+
+=== ___ SCHRITT_FÜR_SCHRITT_VORGEHEN:
+
+==== ___ AUSSTATTUNG:
+
+. Browser in aktueller Version:
+** Chrome
+** Chromium
+** Firefox
+
+WARNING: andere Browser sind ungeeignet!
+
+. Web-Zugang
+. Mitglied-Passwort
+
+==== ___ VORBEREITUNG:
+
+* Die Extension für Asciidoc ist im Browser zu aktivieren:
+** nachfolgend erklärt am Beispiel: CHROMIUM:
+. starte CHROMIUM
+. >>>> Einstellungen (= Costomize andcontrol Chromium)
+. >>>> More Tools
+. >>>> Extensions
+. >>>> Asciidoctor.js Live Preview
+. >>>> Schalterstellung:EIN
+. in der HeaderZeile des Browsers erscheint das ASCIIdoc-Symbol:
+*** Anklicken des Symbols schaltet die ASCIIdoc-Funktion ein & aus!
+** die ArbeitsSchritte gelten sinngemäss für CHROME & Firefox
+
+==== ___ WIR_STARTEN:
+
+* Browser starten
+* aufrufen:  http://www.fablab-nuernberg.de
+* >>>> Login für Mitglieder:
+** Passwort-Eingabe
+* im Inhalts-Verzeichnis von WAS_FINDE_ICH_WO?:
+** >>>> gewünschtes Thema 
+* im Inhalts-Bereich von WAS_FINDE_ICH_WO?:
+** >>>> gewünschte Dokument-Adresse | SubAdresse 
+** und|oder ">>>_Pfad" befolgen!
+
+=== ___ ENDE_DER_KURZANLEITUNG
+
+'''
+'''
+'''
+'''
+
+= *WAS_FINDE_ICH_WO?_____für_MITGLIEDER ...*
+
+= *... an FabLabNbg-Informationen + -Dokumenten*:
+
+WARNING: ARBversion 00.35: Vervollständigung der Texte
+
+WARNING: !!!!!!!!!!! PROTOTYP !!!!!!!!!!!!!!!!!
+* enthält: ARBEITSKOMMENTARE & LÜCKEN !!!!!!!!!!!!!!!!!!!!!
+
+== TERMINE__lesen:
+
+=== KALENDER:
+
+* aktueller Kalender:  (ö___  http://fablab-nuernberg.de/veranstaltungen/kalender/ .
+* Kalender im Rückblick:  (ö___  >>> zurückblättern in: http://fablab-nuernberg.de/veranstaltungen/kalender/ . 
+* interner Kalender:  (m (f___  https://calendar.google.com/calendar/embed?src=fabfolk.com_o8vfschnntjv995vfj80tlvkoo%40group.calendar.google.com&ctz=Europe%2FBerlin .
+** ????? wie ist Teilnehmerkreis definiert ??????????? .
+
+CAUTION: können Mitglieder Kalendereinträge verfassen ????????????????????????
+  
+WARNING: den PODIO-Kalender NICHT abfragen! 
+         Er ensteht ungewollt durch Podios Mechanismen und ist UNGÜLTIG!
+
+=== wiederkehrende VERANSTALTUNGEN
+
+==== TERMINE + zugehörige Beschreibung:
+
+* openlab:  (ö___  http://fablab-nuernberg.de/veranstaltungen/openlab/ .
+* workshops:  (ö___  http://fablab-nuernberg.de/veranstaltungen/workshops/ .
+* repair-cafe:
+** (ö___  http://fablab-nuernberg.de/veranstaltungen/repair-cafe/ . 
+** & Details: (?___  http://wiki.fablab-nuernberg.de/w/Repair_Cafe .
+* kidslab:  (ö___  http://fablab-nuernberg.de/veranstaltungen/kidslab/ .
+* textilelab:  (ö___  http://fablab-nuernberg.de/veranstaltungen/textilelab/ .
+* elektro-lab:  (ö___  http://fablab-nuernberg.de/veranstaltungen/elektro-lab/ .
+* chaostreff:  (ö___  http://fablab-nuernberg.de/veranstaltungen/chaostreff/ .
+
+==== TERMINE als Aufzählung ohne weitere Beschreibung:
+
+* Vereinsjahr: >>> (?___ http://wiki.fablab-nuernberg.de/w/Vereinsjahr
+** Mitgliederabend >>>
+** Mitgliederversammlung >>>
+** plenum >>>
+** weihnachtsfeier >>>
+** E-Prüfung >>>  
+* ???????????? weitere?????????????????????
+
+
+== MITTEILUNGEN__lesen:
+
+* Wie kann ich regelmäßige Benachrichtigungen abstellen?: (m___ https://podio.com/fablab-nuernberg/allgemein/apps/hilfe/items/3 .
+
+=== M. an ALLE mitglieder:
+
+* Kontaktanfragen von Extern  (m___ https://podio.com/fablab-nuernberg/allgemein/apps/kontaktanfragen .
+* Mitteilungen ALLER ART von Intern  (m___ https://podio.com/fablab-nuernberg/allgemein .
+
+=== M. an mich:
+
+* persönliche eM@il: 
+** (ö___ an meine private eMail Adresse .
+** (m_(f___ an mein fabmail.org_eMail_Konto .
+
+
+== MITTEILUNG_schreiben:
+
+=== M. an EXTERN: 
+
+* Kontaktanfrage beantworten: (m_(f___ https://podio.com/fablab-nuernberg/allgemein/apps/hilfe/items/25/ .
+
+=== M. an ALLE mitglieder:
+
+* mittels PODIO-Startseite: (?___ https://podio.com/fablab-nuernberg/allgemein
+* oder mittels PODIO-Neuigkeiten:   (m___ https://podio.com/home >>> NEUIGKEITEN
+** in TextFeld "Teilen Sie etwas. Mit @ .......":
+** TEXT eintragen ...
+** ... dann "Teilen" anklicken!
+* PODIO-Text formatieren:  (m___ https://podio.com/fablab-nuernberg/allgemein/apps/hilfe/items/14 .
+* mein-Foto: (m___ https://podio.com/fablab-nuernberg/allgemein/apps/hilfe/items/8 .
+* protokolle:  (m___ https://podio.com/fablab-nuernberg/allgemein/apps/protokolle
+* ???????????????>>>>PROJEKTe?????????????
+* in github veröffentlichen:  (m___ ???????????: https://github.com/orgs/FabLabNbgbg/people???????? .
+* Eigenes Projekt gemacht?: (?___ http://wiki.fablab-nuernberg.de/w/Hauptseite
+** >>> Eigenes Projekt gemacht? .
+* Wiki editieren: (m___ ?????????? wo beschrieben ????????????? .
+* Flohmarkt: (?___ https://podio.com/fablab-nuernberg/allgemein/apps/flohmarkt .
+
+
+
+=== M. an PROJEKT:
+
+* Wie füge ich einen Ressourcenkalender hinzu?:  (m___ https://podio.com/fablab-nuernberg/allgemein/apps/hilfe/items/18 .
+
+=== M. an EINZELmitglied:
+
+* eM@il an mitglied:  (m___ ...
+** ... an dessen fabmail.org_eMail_Adresse .
+** ... oder an dessen private eMail_Adresse .
+
+=== M. an VORSTANDSCHAFT:
+
+* Sonstwas mittels eMail: (m___ vorstand@fablab-nuernberg.de .
+* Veranstaltung|Termin vorschlagen: (m___ ...
+** ... Gespräch mit ian; oder:
+** ... eM@il an: ian@fabmail.0rg oder:
+** ... Zugriff auf Kalender: (m___ https://podio.com/fablab-nuernberg/allgemein/apps/hilfe/items/19 .
+
+
+== DAS FABLAB-PRINZIP:
+
+=== Die internationale Idee: 
+
+* FabLab lt wikipedia: (ö___ https://de.wikipedia.org/wiki/FabLab .
+* FabLabs_Übersicht: (ö___ fablabs.io.
+* fablabs-in-deutschland: (ö___ http://fabrikationslabor.de/fablabs-in-deutschland/ .
+
+=== Vernetzung:
+
+* Veranstaltungen des CCC im FabLabNbg:  (ö___  http://fablab-nuernberg.de/veranstaltungen/kalender/ .
+* CCC-Kommunikationsnetz-Projekt: (?___ http://wiki.fablab-nuernberg.de/w/Chaosvermittlung .
+* fablabs-in-deutschland: (ö___ http://fabrikationslabor.de/fablabs-in-deutschland/ . >>> Vernetzung .
+* ??????????fablabs.io: Vernetzungstreffen ???????????????? [VideoKonferenz]
+* ??????????weitere? zB auch Firmen ????????????????????
+
+=== FabLabNbg:
+
+==== Allgemeine Infos zum FabLabNbg:
+
+* Web-Auftritt: (ö___ http://www.fablab-nuernberg.de .
+* Wiki des FabLabNbg: (?___ http://wiki.fablab-nuernberg.de/w/Hauptseite .
+* Nutzungsregeln: (?___ http://wiki.fablab-nuernberg.de/w/Nutzungsregeln .
+* Arbeitsgruppen: (?___ https://podio.com/fablab-nuernberg/allgemein/apps/arbeitsgruppen#/views/all_by_date .
+* QUERbeet Hilfestellung: (?___ https://podio.com/fablab-nuernberg/allgemein/apps/hilfe .
+* Alle Wiki-Seiten: (?___ http://wiki.fablab-nuernberg.de/w/Spezial:Alle_Seiten .
+* Wofür ist das Forum da?:  (m___ https://podio.com/fablab-nuernberg/allgemein/apps/hilfe/items/10 .
+* protokolle:  (m___ https://podio.com/fablab-nuernberg/allgemein/apps/protokolle
+
+==== WIR MACHEN ES UNS GEMÜTLICH:
+
+* Getränk:  (m_(g_(€___ gem.Aushang:
+** (m_(g___ € an GETRÄNKEkasse ... oder:             
+** (m_(f___ € vom Matom.at-Guthaben : ????????? wo beschrieben ??????????? . 
+* Kaffeemaschine: (m_(g?___ http://wiki.fablab-nuernberg.de/w/Kaffeemaschine .
+* KÜCHE_etc: ?????????????????? wo beschrieben ????????????????????????
+* CouchEcke: ?????????????????? wo beschrieben ????????????????????????
+* miniBIBLIOTHEK: ?????????????????? wo beschrieben ????????????????????????
+
+== TECHNIK:
+
+=== VON EINWEISUNG BIS WORKSHOP:
+
+* Wie bekomme ich verschiedene Geräte/Maschinen erklärt?:  (m_(g___ https://podio.com/fablab-nuernberg/allgemein/apps/hilfe/items/6 .
+* VORDRUCK: Workshop anmelden: (m___ https://podio.com/fablab-nuernberg/allgemein/apps/hilfe/items/31 .
+* QUERbeet Hilfestellung: (?___ https://podio.com/fablab-nuernberg/allgemein/apps/hilfe .
+
+=== HOWTOs:
+* Wiki des FabLabNbg: Hauptseite >>> Wie wirds gemacht?:  (?___ http://wiki.fablab-nuernberg.de/w/Hauptseite .
+* Bewertung der Podio-Hilfestellungen:  (m___ https://podio.com/fablab-nuernberg/allgemein/apps/hilfe/items/2 .
+
+=== GERÄTEPARK:
+* Wiki des FabLabNbg: Hauptseite >>> Hardware: (?___ http://wiki.fablab-nuernberg.de/w/Hauptseite .
+* Geräteklassifizierung nach Gefahren- und Beschädigungspotenzial: (m_(f___ http://wiki.fablab-nuernberg.de/w/Ger%C3%A4teklassifizierung .
+* Drehbank: (m_(e___ http://wiki.fablab-nuernberg.de/w/SD300 .
+
+=== SOFTWARE-TOOLS:
+* Software_Liste:
+** Wiki...Hauptseite: >>> Software: (?___ http://wiki.fablab-nuernberg.de/w/Hauptseite .
+** http://wiki.fablab-nuernberg.de/w/Software_Liste .
+* Quellcode zu Projekten: (m___ https://github.com/FabLabNbgbg/ .
+
+=== ENTWÜRFE, LÖSUNGEN, VORLAGEN ...:
+* Projekte = Ding-Seiten: (?___ http://wiki.fablab-nuernberg.de/w/Spezial:Alle_Seiten/Ding .
+* Wiki des FabLabNbg_Hauptseite >>> Eigenes Projekt gemacht?: (?___ http://wiki.fablab-nuernberg.de/w/Hauptseite .
+* Lasercut-Vorlagen: (?___ http://wiki.fablab-nuernberg.de/w/Kategorie:Lasercut .
+* Quellcode zu Projekten: (m___ https://github.com/FabLabNbgbg/ .
+* Quellcode-Admins:  (m___  ???????????: https://github.com/orgs/FabLabNbgbg/people .
+* BEISPIELE:
+** Gcode: (m___ http://wiki.fablab-nuernberg.de/w/Gcode .
+** Lasercut-Vorlagen: (?___ http://wiki.fablab-nuernberg.de/w/Kategorie:Lasercut .
+
+=== PROJEKTE:
+
+* Wie erstelle ich ein Projekt?:  (m___ https://podio.com/fablab-nuernberg/allgemein/apps/hilfe/items/21
+* Projekt-Auflistung: 
+** wiki_Ding-Seiten: (?___ http://wiki.fablab-nuernberg.de/w/Spezial:Alle_Seiten/Ding
+** Podio_Projekt-Seiten: (?___ :
+*** https://podio.com/fablab-nuernberg/allgemein/apps/projekte#100
+*** https://podio.com/fablab-nuernberg/allgemein/apps/projekte#60
+**** ???????????????? WAS IST DER UNTERSCHIED OBIGER BEIDER ADRESSEN ??????????????????????
+**** Übersicht: >>> Podio-Kopfzeile-#3: >>> Ansicht_wechseln: Tabelle
+**** Thema-sortiert: >>> Podio-Kopfzeile-#3: >>> Ansicht_wechseln: Karten 
+**** mit Details + Namen: >>> Podio-Kopfzeile-#3: >>> Ansicht_wechseln: Aktivität
+**** mit Abbildung(en) >>> Podio-Kopfzeile-#3: >>> Ansicht_wechseln: Badge
+
+WARNING: In Podios Kalender-Ansicht NICHT wechseln! 
+         Dieser Kalender ensteht ungewollt durch Podios Mechanismen und ist UNGÜLTIG!
+
+** !!!!!!!!!!NACHFOLGENDE SEITEN SICHTEN !!!!!!!!!!!!!!!!!!!!!!!!:
+*** UNSORTIERT: https://podio.com/fablab-nuernberg/allgemein/apps/projekte#/views/18525372
+*** nach HAUPTTHEMEN SORTIERT: https://podio.com/fablab-nuernberg/allgemein/apps/projekte#/views/all_by_date
+*** Lab-Neugestaltung: https://podio.com/fablab-nuernberg/allgemein/apps/projekte#/views/8275611.
+
+== FabLabNbg-ORGANISATORISCHES:
+
+=== BASIS-REGELUNGEN:
+
+* Allgemeine Geschäftsbedingungen: (?____ https://github.com/FabLabNbgbg/Dokumente/releases/tag/v20160524 
+** >>>> Allgemeine_Geschaeftsbedingungen.pdf
+* Satzung (aktuelle Version): (?____ https://github.com/FabLabNbgbg/Dokumente/releases/tag/v20160524 
+** >>>> Satzung_pdfcompare_v20160524_v20160730.pdf
+* Beitrags-Gebuehrenordnung: (?____ https://github.com/FabLabNbgbg/Dokumente/releases/tag/v20160524 
+** >>>> Beitrags-Gebuehrenordnung.pdf
+* Gesammt-Übersicht (aktuelle und ersetzte Unterlagen ab Verein-Gründung):
+** (?____ https://github.com/FabLabNbgbg/Dokumente/releases/tag/v20110221
+** (?____ https://github.com/FabLabNbgbg/Dokumente/releases 
+** (?____ Satzung-21.2.2011.pdf (Microsoft Word) ????????____WO_GESPEICHERT??????: 
+
+=== ADRESSEN:
+
+* Kontakt+Funktions-mailadressen:  (m___ https://podio.com/fablab-nuernberg/allgemein/apps/hilfe/items/24
+* Projekte: (?___ https://podio.com/fablab-nuernberg/allgemein/apps/projekte#60
+* Arbeitsgruppen: (?___ ??????? UNTERSCHIED ZU PROJEKTEN/PROJEKTBETEILIGTEN ?????????????
+
+=== VORDRUCKE & VORLAGEN:
+
+* VereinsDokumente: https://github.com/FabLabNbgbg/Dokumente/releases
+* Material-Beschaffung:  (m_(€___ ?????????? kilian ?????????????????????? .
+* VORDRUCK: Kontaktanfrage beantworten: (m_(f___ https://podio.com/fablab-nuernberg/allgemein/apps/hilfe/items/28 .
+* TEXTVORLAGEN: Kontaktanfrage beantworten (Autoresponder): (m___ https://podio.com/fablab-nuernberg/allgemein/apps/hilfe/items/26 .
+* VORDRUCK: Workshop anmelden: (m___ https://podio.com/fablab-nuernberg/allgemein/apps/hilfe/items/31 .
+* Ticket für Bestellungen und defekte Geräte: (m___ https://podio.com/fablab-nuernberg/allgemein/apps/hilfe/items/29 .
+* ???????????? weitere ??????????????????? .
+
+=== VERBRAUCHS-MATERIAL & MASCHINEN-NUTZUNG:
+
+. um was gehts:
+ 
+* 3D-Filament:  (m_(g_(€___ gem.Aushang .
+* MaterialEntnahme:  (m_(g_(€___ gem.Aushang .
+* Textil:  (m_(g_(€___ gem.Aushang .
+* Papier-Druck:  (m_(g_(€___ Umzug-bedingt zurückgestellt!!!!!!!!!!!!!!!!!!! .
+* Papier-Kopie: derzeit nicht möglich???????
+* Elektronische_Bauteile_Fall_1: (m_|€___ http://wiki.fablab-nuernberg.de/w/Elektronische_Bauteile .
+. Bezahlung wählen:
+.. MATERIALkasse: (m (g___??????? wo beschrieben ????????????? oder:                       
+.. Abzug vom Matom.at-Guthaben: (m(f___????????? wo beschrieben ??????????? : 
+. Elektronische_Bauteile_Fall_2: (m___ http://wiki.fablab-nuernberg.de/w/Elektronische_Bauteile:
+* gratis | Spende erwünscht
+ 
+=== MATERIAL-BESCHAFFUNG: 
+   
+* Material-Beschaffung:  (m_(€___ 
+. https://podio.com/fablab-nuernberg/base/apps/bestellungen .
+. http://wiki.fablab-nuernberg.de/w/Bestell-Links .
+. Freigabe durch Budget-Verantworlichen (Vorstand, ...) .
+. sodann Bestellung - üblicherweise Dienstags - bei  Kilian veranlassen .              
+* UMFRAGE: Wer macht mit bei Beschaffung von GrossMengen:   (m___ ???????Podio-Textfeld & kilian ?????? .
+
+=== €_:
+
+* MitgliedsBeitrag: (m_(€___ Abbuchung: 
+** Bestätigung: >>> eigenes eM@il Konto . 
+* keyfob: ??????????????? wo beschrieben ??????????????????????? .
+* Spende bar ohne Quittung: (m_(g___ an SPENDENkasse .
+* Spenden mit Quittung: (m___ https://podio.com/fablab-nuernberg/allgemein/apps/hilfe/items/20 .
+* Spende von Extern: (ö___ ???????????? wo beschrieben ???????????????? .
+* Getränk:  (m_(g_(€___ gem.Aushang:
+** (m_(g___ € an GETRÄNKEkasse ... oder:             
+** (m_(f___ € vom Matom.at-Guthaben : ????????? wo beschrieben ???????????? .
+* MaterialEntnahme:  >>> VERBRAUCHS-MATERIAL & MASCHINEN-NUTZUNG .
+* WechselGeld:  (m_(f___ MATERIALkasse .
+* kostenstellen: (?___ https://podio.com/fablab-nuernberg/allgemein/apps/kostenstellen .
+
+WARNING: Bitte die Einzahlungen in SPENDENkasse|GETRÄNKEkasse|MATERIALkasse sauber trennen!!!
+
+=== BERECHTIGUNGEN:
+
+* Mitgliedschaft: (m_(f_(t___ ??????????? wo beschrieben ?????????????? .
+* keyfob: ??????????????? wo beschrieben ???????????????????????.
+* SCHLIESSBERECHTIGUNG: (m___ http://wiki.fablab-nuernberg.de/w/Schlie%C3%9Fberechtigung .
+* Matom.at: (m_(f___ ???????????? wo beschrieben ???????????? .
+* Workspace Base (m_(f___ ????????? wo beschrieben ??????????????? .
+* IT-Zugänge: 
+** >>> ZUGÄNGE >>> IT-ZUGANG__lesend.
+** >>> ZUGÄNGE >>> IT-ZUGANG__lesend + schreibend.
+* Lab-Manager:  
+** (m___ https://podio.com/fablab-nuernberg/allgemein/apps/hilfe/items/11 .
+*** Der Verweis auf Lab-Manager führt ins Leere! (404) !!!!!!!!!!!!!!!!!!!!!! .
+**(m___ http://wiki.fablab-nuernberg.de/w/LabManager-FAQ .
+* ?????? weitere ??????????? .
+* Geräteklassifizierung nach Gefahren- und Beschädigungspotenzial: (m_(f___ http://wiki.fablab-nuernberg.de/w/Ger%C3%A4teklassifizierung .
+
+=== SONSTIGES:
+
+* Flohmarkt: (?___ https://podio.com/fablab-nuernberg/allgemein/apps/flohmarkt .
+
+== TYPISCH_IT:
+
+* siehe hierz auch:
+** >>> TECHNIK
+** >>> BERECHTIGUNGEN
+** >>> ZUGÄNGE >>> IT-ZUGANG__lesend.
+** >>> ZUGÄNGE >>> IT-ZUGANG__lesend + schreibend.
+
+=== Datengeheimnis:
+
+* Wer hat Einsicht zu meinen Mitgliedsdaten?:  (m___ https://podio.com/fablab-nuernberg/allgemein/apps/hilfe/items/16 .
+* Warum will FabBot Zugriff zu "meinem" Workspace?:  (m___ https://podio.com/fablab-nuernberg/allgemein/apps/hilfe/items/17 .
+* Foto für die  Mitglieder-Datei:  (m___ https://podio.com/fablab-nuernberg/allgemein/apps/hilfe/items/8 .
+* Wer kann sehen, was ich mache?:  (m___ https://podio.com/fablab-nuernberg/allgemein/apps/hilfe/items/7 .
+* Geschützte Bereiche: 
+** (m___ https://podio.com/fablab-nuernberg/allgemein . 
+** (?___ https://oc.fablab-nuernberg.de/ .
+** (?___ ????????????weitere????????????????????? .
+
+=== NA SO WAS:
+
+* Manchmal werden Kommentare erstellt, die ich nicht geschrieben habe...?!:  (m___ https://podio.com/fablab-nuernberg/allgemein/apps/hilfe/items/13 .
+* Warum werden manche Dateien direkt geöffnet und andere nicht?:  (m___ https://podio.com/fablab-nuernberg/allgemein/apps/hilfe/items/15 .
+
+== ZUGÄNGE: 
+
+* keyfob: ????????????????? wo beschrieben ?????????????????????.
+
+=== FAHRZEUG ZUFAHRT:
+
+* parken >>>
+* Laderampe >>>
+
+>>>: Was muss ich zum Gelände "Werk Eins" wissen?:  (?___ https://podio.com/fablab-nuernberg/allgemein/apps/hilfe/items/30/ .
+
+=== PERSONEN ZUGANG:
+
+* Aufzug zum 3.Stock >>>
+* Aufzug zum Hof >>>
+* Behinderten Toilette >>>
+
+>>>: Was muss ich zum Gelände "Werk Eins" wissen?  (?___ https://podio.com/fablab-nuernberg/allgemein/apps/hilfe/items/30/ .
+
+* Zutritt bei veranstaltungsfreien Zeiten:
+**  (m_(t_(f___ mit HW-token undgemäss:https://podio.com/fablab-nuernberg/allgemein/apps/hilfe/items/23 .
+**  (m___ http://wiki.fablab-nuernberg.de/w/Schlie%C3%9Fberechtigung .
+* Zutritt bei öffentlicher Veranstaltung:  (ö___ Tür & Tor von Strasse bis FabLabNbg ist geöffnet!! .
+
+* !!!!!! Verlassen der FabLabNbg-Räume ??????????? WO GEREGELT
+
+=== ZUGÄNGE INNERHALB FabLabNbg:
+
+* abschließbarer Schrank: (m_(€_(f___ http://wiki.fablab-nuernberg.de/w/Einlagerbedingungen .
+* ???????????????? spezielle Räume ?????????????????
+*
+
+=== IT-ZUGANG__lesend:
+
+* FabLabNbg stellt sich vor:  (ö___ http://fablab-nuernberg.de/ .
+* techn Infos (wiki):  (ö___ http://wiki.fablab-nuernberg.de/w/Hauptseite/ .
+* ??????begriff???????:  (ö___ https://github.com/FabLabNbgbg/ .  
+* ??????begriff???????:  (m___ https://podio.com/fablab-nuernberg/allgemein .
+
+=== IT-ZUGANG__lesend + schreibend:
+
+* WLAN im FabLab:  (m_(g_(p___ Aushang im FabLabNbg .
+* EmailAdr. "xxx@fabmail.org" beantragen: (m___ https://podio.com/fablab-nuernberg/allgemein/apps/hilfe/items/23/ .
+* SPEICHERPLATZ.persönlich:  
+** (m_(f___ https://podio.com/fablab-nuernberg/allgemein/apps/hilfe/items/22 .
+** http://wiki.fablab-nuernberg.de/w/ownCloud .
+* SPEICHERPLATZ.öffentlich:  (ö___ zB WorkShop-Begleitmaterial: ???????? owncloud???????????????????? . 
+* ??????begriff???????:  (m_(g___ ????????flnfs??????? .        
+* ???????? gibts noch weiteren Speicherplatz? ?????? .                    
+* Drucker-Ausgabe:  (m_(g_(€___ !!!!!wird noch festgelegt!!!!! .
+* in github veröffentlichen:  (m_(f___ https://github.com/orgs/FabLabNbgbg/people ????????????????????? .
+* Wie bekomme ich Zugang zu anderen Workspaces?:  (m___ https://podio.com/fablab-nuernberg/allgemein/apps/hilfe/items/4 .
+
+
+== SONSTIGES:
+
+* Wofür ist das Forum da?:  (m___ https://podio.com/fablab-nuernberg/allgemein/apps/hilfe/items/10 .
+* Was ist der Unterschied zwischen den verschiedenen Workspaces?:  (m___ https://podio.com/fablab-nuernberg/allgemein/apps/hilfe/items/ .
+* Bewertung der Podio-Hilfestellungen:  (m___ https://podio.com/fablab-nuernberg/allgemein/apps/hilfe/items/2 .
+* .
+* .
+* .
+* .
+
+
+'''
+
+== NACHSPANN:
+
+=== Anlass zu: WAS FINDE ICH WO?:
+
+* Das *derzeit* existierende "Informationsgebäude" des FabLabNbg ist: 
+** *historisch* gewachsen
+** einesteils *excellent* ausgearbeitet
+** andernteils als *Kuddelmuddel* auf unterschiedlichste Weise organisiert
+* Informationen gezielt zu finden, ja deren Existeenz überhaupt erst zu bemerken:
+** ist für ein Standard-Vereins-Mitglied: ...
+*** ... na nennen wir es einfach ergänzend zu software & hardware & firmware: 
+*** ist geradezu eine: "*zufallstrefferware*"
+
+* Mir war diese Strukturierung der diversen InfoQuellen des FabLabNbg zu unübersichtlich ...
+** ... was zu meinem persönlichen SPICKzettel-FabLabNbg führte...
+** ... der sodann - "gemäss der FabLab-Idee: *FÜR_ALLE!*" - ...
+** ... nach Rücksprache mit der Vereinsführung ...
+** ... als *Prototyp*-FabLabNbg-*INFO-sytem* ins Netz ging.
+
+=== Details zur Erstellung von WAS FINDE ICH WO?:
+
+.
+.
+
+* Die WAS FINDE ICH WO? wurde erstellt mittels AsciiDoc & AsciiDoctor.
+
+.
+.
+
+=== Status & Fortführung & Mitarbeit:
+
+* WAS FINDE ICH WO? befindet sich in der Frühphase mit noch fehlenden Funktionalitäten & Inhalten:
+** Vielleicht ist es dennoch bereits eine erste SuchHilfe ...
+** ... und hoffentlich nicht zu überladen! 
+* Wir sind auf Mitteilungen zu Verbesserungen, Fehlern, Ergänzungen, pos|neg Kritik angewiesen.
+** Mitteilungs-Vordruck unter: ?????????? ist noch einzurichten: !!!!!!!!!!!!!!!!!!!!!!
+*** Was ist fehlerhaft? ...........................................
+*** Was ist schwer verständlich? ...........................................
+*** Was fehlt?  ...........................................
+*** Was finde ich nicht?  ...........................................
+*** Was ist unübersichtlich?  ...........................................
+*** Was ist falsch zugeordnet? ........................................
+*** Wo wären Erläuterungen erforderlich? .....................................
+*** Welche Adresse geht ins Leere? .........................................
+*** Sonstige Anmerkung:............................................
+*** War WAS FINDE ICH WO? hilfreich? .....................................
+*** Soll WAS FINDE ICH WO? weiterentwickelt werden?....oder ist es überflüssig?.....
+* Inwieweit ein abgemagertes WAS FINDE ICH WO?
+** für Interessenten und Besucher
+** arbeitssparend realisierbar & sinnvoll ist, wird derzeit geprüft
+
+=== Hinweise zu PODIO & GITHUB:
+
+* Informationsflüsse & Verwaltungsarbeiten des FabLabNbg nutzen vornehmlich:
+** Web-Auftritt
+** Podio & Podio-Wiki
+** GitHub 
+** Telegram .
+* Insbesonders Podio & GitHub sind:
+** GEWÖHNUNGSBEDÜRFTIG ...
+** ... für die umfangreichen, für Mitglieder nicht sichtbaren, ehrenamtlichen Verwaltungsarbeiten jedoch UNENTBEHRLICH ...
+** ... wofür die Vorstandschaft um Verständnis bittet.
+* Die Durchführung von Workshops zu Podio & GitHub ist angeregt.
+
+
+=== Bitten|Vorschläge an den Vorstand:
+
+* Bereinigung des derzeit existierenden "Informationsgebäudes" des FabLabNbg
+** inklusive exakter+zeitnaher Änderungs-Informationen an den WAS FINDE ICH WO?-Verantwortlichen!  
+* eigenes FabLabNbg-LOGO
+** ausschliesslich für bereinigte Unterlagen!
+* BEITRITTpaket für NEUmitglieder, enthaltend zB:
+** keyfob (gegen Pfand)
+** Papierausdrucke:
+*** Allgemeine Geschäftsbedingungen
+*** Satzung (aktuelle Version)
+*** Beitrags-Gebuehrenordnung
+*** weitere??????????
+** 3D-gedrucktes FabLabNbg-LOGO als Anstecknadel|-Reverzwicker
+** Papierausdrucke:
+*** WAS FINDE ICH WO? (mit den Angaben zur Aktivierung der ASCIIdoc-Extension des Browsers)
+*** SpickZettel: ASCIIdoc & ASCIIdoctor (in Arbeit)
+*** weitere SpickZettel ??????????????????????????????
+** . 
+** . 
+** . 
+
+==== Oktober 2019,   Max .
+
+'''
+'''
+'''
+'''
+
+== ENDE von: WAS FINDE ICH WO?__User-Bereich!!
+
+'''
+'''
+'''
+'''
+
+
+
+
+== ___ HISTORY & STATUS:
+
+=== ___ HISTORY wichtiger Versionen:
+
+genannt sind: Version + Zweck:
+
+* ARBversion 00.33: Vervollständigung der Texte: Okt-2019
+* ARBversion 00.29: interne Demo: ProblemFelder + Lösungswege: Okt-2019
+** Mos & Max
+** Jürgen & Max
+* ARBversion 00.25: unterlagenSICHTUNG 
+* ARBversion 00.22: für Freigabe-Gespräche: Sept-2019:
+** Mos & Max
+** Ian + Max 
+* ROHversion 00.21:  ASCIIdoc+ASCIIdoctor als funktionale Basis geeignet?: Sept-2019:
+** Jürgen & Max
+* ROHversion 00.XX: Überführung des persönlichen SPICKzettels in FabLabNbg___WAS FINDE ICH WO?.txt
+
+=== ___ STATUS in EinzelAspekten:
+
+==== ___ STATUS der ErstAusführung:
+
+- [*] ASCIIdoc-simpel-ToolSet
+- [*] WAS FINDE ICH WO?-BasisFunktionalität
+- [*] Gliederung
+- [*] integriertes InhaltsVerzeichnis
+- [*] integrierte KurzAnleitung
+- [*] integrierte Bearbeitungs-Dokumentation
+- [*] optische Gestaltung
+- [*] Text_Erstellung
+- [ ] Text_Freigabe
+- [*] Symbolblöcke_Erstellung
+- [ ] Symbolblöcke_Sichtung
+- [ ] Symbolblöcke_Freigabe
+- [*] ZielAdressen_Sammlung
+- [ ] ZielAdressen_Sichtung+Sortierung
+- [ ] ZielAdressen_Test
+- [*] PODIO-globalAdressierung
+- [ ] PODIO-DetailAdressierung
+- [ ] WIKI-DetailAdressierung mit Gliederung
+- [ ] Hinweise zum Prototyp
+- [ ] Installation|Speicherung im FabLabNbg-Sytem
+- [ ] STARTbutton in: http://www.fablab-nuernberg.de
+- [ ] Gesamt-Kontrolle+Test
+- [ ] Freigabe
+- [ ] Workshop
+- [ ] User-Erstanwendung
+- [*]
+- [*]
+- [*]
+- [*]
+
+==== ___ STATUS der ZielAusführung:
+
+- [ ] ASCIIdoc&ASCIIdoctor-ToolSet
+- [ ] scrollbares separiertes InhaltsVerzeichnis
+- [ ] scrollbare separierte KurzAnleitung
+- [ ] scrollbare separierte Bearbeitungs-Dokumentation
+- [ ] Erfahrungs-Rückmeldeverfahren
+- [ ] BedienFunktionen: Ausblenden, Sprung_zu, Tooltip etc
+- [ ] statisches HTML
+- [ ] WEITERE ???????????????????????
+- [ ] 
+- [ ] 
+- [ ] 
+
+==  ___ LOP_intern (= interne Liste offener Punkte zu WAS_FINDE_ICH_WO?): 
+
+WARNING: Alle Kapitel derzeit *NICHT AKTUELL!!!*
+
+===  ___ GENERELLES:
+
+- [*] = Arbeitspunkt ist geklärt & abgeschlossen!
+- [ ] = Arbeitspunkt ist offen oder in Arbeit!
+- [ ] alle ???????????????? = KLÄREN !!!!!!!
+- [ ] ??????: https://podio.com/fablab-nuernberg/allgemein/apps/kontaktanfragen/items/3262 ?
+- [ ] !!!!!! Gespräch mit kilian     = offen !
+- [ ] .
+- [ ] .
+- [ ] .
+- [ ] .
+
+=== ___ FUNKTION & GESTALTUNG:
+
+- [ ] ?????? Könnte man:
+. in Zieldokumenten jedweder Art (XML, HTML, Podio, GitHub,....)
+. Anker setzen an speziellen Positionen...
+. ...zum Anspringen aus SPICKzettel ?
+- [ ] Wie lassen sich die Podio-Felder textuell|grahisch beschreiben|anfassen...: 
+. ...zB in: https://podio.com/fablab-nuernberg/allgemein/
+. ...zB dort das Feld linksUnten.
+- [ ] Das FabLab-Logo fehlt im Kopf !!!!!!!!!!!!!
+- [ ] ???????? ein Ende-Button: "Sprung an den Anfang" fehlt!
+- [ ] ???????? VORSCHLAG:
+. in: http://fablab-nuernberg.de/
+. Button "mitgliedZUGANG" setzen:
+.. er separiert Mitglieder von Öffentlich
+.. er öffnet: SPICKzettel-FabLabNbg als adressKNOTEN
+.. SPICKzettel-FabLabNbg wäre dabei umzubenennen.
+- [ ] ??????????? wie gelangt man von irgendeiner FabLabNbg-Seite (Web, Wiki, Podio, GitHub, Kalender, ...) zu SPICKzettel-FabLabNbg zurück?
+- [ ] !!!!!FEHLEND: ÜberschriftenVerzeichnis zum Anspringen:
+. links | rechts ?????
+. NICHT-mitscrollend = immer angezeigt!!!!!!!
+- [ ] Im Header:
+. FabLabNbg-LOGO
+
+- [ ] .
+- [ ] .
+- [ ] .
+
+=== ___ INHALTE & SORTIERUNG:
+
+- [ ] !!!!!!einarbeiten_GANZ_WICHTIG!!!!!: https://github.com/FabLabNbgbg/Dokumente/releases
+. zuordnen
+. was wird ersetzt?...
+. ...dieses ausmerzen!
+- [ ] ??????: Könnte man in: 
+. https://podio.com/fablab-nuernberg/allgemein/apps/projekte#/views/18525373/58100037/111946892 
+. die Projekte nach Status sortiert anzeigen:
+. ZUERST: Aktiv; 
+. DANN DER REST: Inaktiv | Herrenlos | Verworfen.
+- [*] MATERIAL + KOHLE|€ zusammenfassen??????
+- [*] Kapitel-Reihenfolge optimieren!!!!!
+- [*] AUFNEHMEN: https://de.wikipedia.org/wiki/FabLab
+- [*] AUFNEHMEN: === .VORSPANN:
+- [*] AUFNEHMEN: === .NACHSPANN:
+- [ ] "Standort" fehlt in: http://wiki.fablab-nuernberg.de/w/Hauptseite
+- [ ] >>> Bestellungen: geht ins Leere (404): http://wiki.fablab-nuernberg.de/w/Spezial:Alle_Seiten
+- [ ] AUFNEHMEN als Wiki|Web-Seite: FabLabNbg & PODIO
+- [ ] AUFNEHMEN als Wiki|Web-Seite: FabLabNbg & GitHub 
+- [ ] AUFNEHMEN: ???????? Hinweis auf FachLiteratur-miniBibliothek?????????
+- [ ] PROPLEMBEREICH_PODIO_WIKI:
+*Lässt sich http://wiki.fablab-nuernberg.de/w/Spezial:Alle_Seiten   ...
+* ....gliedern zB nach Themen-SCHEMA:
+** ORG
+** Projekte.aktuell
+** Projekte.abgeschlossen
+** Gerätepark
+** SWtools
+** usw.....
+* ...ggf mittels einem der folgenden Realisierungs-PRINZIPIEN:
+. in der Seite eingefügte Sortier-Überschriften, oder:
+. JEDER Eintrag in Wiki/Hauptseite/Von A bis Z: http://wiki.fablab-nuernberg.de/w/Spezial:Alle_Seiten ...
+*** ... wird gelistet in mindestens einer der noch zu erstellenden NEUEN Wiki-Themen-Listen:
+*** http://wiki.fablab-nuernberg.de/w/THEMA-XYZ...
+*** gemäss Beispiel: http://wiki.fablab-nuernberg.de/w/Software_Liste
+. oder: Jeder Eintrag in Wiki/Hauptseite/Von_A_bis_Z erhält im Namen einen Thema-Vorsatz...
+*** ... der durch die Alphabet-Reihenfolge die Gliederung erzwingt.
+. oder: ???????? weitere PRINZIPIEN ??????????????????
+- [ ] PROPLEMBEREICH_GitHub:
+. ist in WAS FINDE ICH WO bisher nicht|kaum abgedeckt...
+. ... dem Verfasser fehlt hierzu jegliches Vorwissen!!!!!!...
+. ... wer hilft????????????????????????????
+- [ ] .
+- [ ] . 
+- [ ] .
+- [ ] .
+
+=== ___ UNGÜLTIG | VERALTET | ÜBERFLÜSSIG | LEER ?????????:
+
+. FabLabNbg-zZt-offen-Info  (?:  http://api.fablab-nuernberg.de/spaceapi.json
+. Was ist der Unterschied zwischen den verschiedenen Workspaces?: https://podio.com/fablab-nuernberg/allgemein/apps/hilfe/items/2
+
+
+=== ___ FRAGEN zu AsciiDoc:
+
+CAUTION: wo finde ich eine kompakte verständliche Anleitung zum ASCIIdoc-HEADER-Block?
+
+- [*] ?????? AsciiDoc-Symbol für: waagrechter langerTrennstrich ! 
+- [ ] ?????? AsciiDoc-Symbol für: SeitenUmbruch !
+- [ ] ?????? AsciiDoc-Symbol für: mehrere Leerzeichen am Stück !
+- [ ] ?????? geeignete TranferAPP: AsciiDoc >>> zB HTML:           
+. AdHocVIEWER.google: = ok;   
+. TranferAPP: = fehlt mir !!!!!!!!!
+- [ ] AsciiDoc.AdHocVIEWER.google: wie DEFINIERTE Trennstrich-ANZAHL&ABSTÄNDE erzwingen ??????????? 
+- [*] AsciiDoc.AdHocVIEWER.google: wie Tabellen ausgeben ??????????????
+- [ ] ?????? gibt es AsciiDoc-"Befehl für quellCODE-FORMAT-Angabe" ?
+- [*] ?????? gibt es AsciiDoc-"Befehl":  ":status" ?
+- [*] ?????? wie Inhaltsverzeichnis anzeien lassen?
+- [ ] ?????? was bewirkt die Zeichenfolge "  (?___ "?:  Es fehlen 2 von 3 Unterstrichen!!!!
+- [ ] ?????? wie Verweise innerhalb der ASCIIdoc-Unterlage anlegen?
+- [ ] .
+- [ ] .
+- [ ] .
+
+=== ___ NOCH UNGENUTZT & UNGEKLÄRT:
+
+==== ___HEADER:
+
+:FabLabNbg...WAS FINDE ICH WO?
+:afile:///media/max/INTENSO/__myARBbereich__SICHbeginn_2016_03_26/__myARBbereich_aktuell_nach_THEMA/FABlab+CO/SPICKzettel_FabLabNbg_01/SPICKzettel_FabLabNbg___sammlung&ADR_17.asciidocuthor: MAX  
+:email:  max.badelt@gmail.com  
+:toc:
+:toclevels: 2
+:toc-title: Inhaltsverzeichnis
+:toc-placement: right
+:sectanchors:
+:numbered:
+:revnumber: >>> ==== version = ______________version_>>>_TITELunterzeile:
+:revdate: 2019-08-25+ :
+:status: vorl Sammlung :
+_____________________version_>>>_TITELunterzeile : 
+
+==  ___ LOP_extern: = zurückgestellt!!
+
+== ENDE von: WAS FINDE ICH WO?_kpl-Unterlage
+
+'''
+'''
+'''
+'''
+
+
+
+
+
+
+
+
+
+
+
