@@ -11,4 +11,4 @@ install:
     - gem install asciidoctor
  
 script:
-    - asciidoctor
+    - asciidoctor test.asciidoc
