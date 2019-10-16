@@ -1,0 +1,14 @@
+
+sudo: false
+cache:
+    directories:
+        - "~/.platformio"
+
+#env:
+#    - PLATFORMIO_CI_SRC=src/main.cpp
+
+install:
+    - gem install asciidoctor
+ 
+script:
+    - asciidoctor
