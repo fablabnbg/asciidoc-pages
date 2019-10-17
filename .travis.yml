@@ -1,0 +1,22 @@
+
+sudo: false
+cache:
+    directories:
+        - "~/.platformio"
+
+#env:
+#    - PLATFORMIO_CI_SRC=src/main.cpp
+
+install:
+    - gem install asciidoctor
+    - mkdir out
+ 
+script:
+    - asciidoctor -v -d book -D out test.asciidoc
+
+
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: $GITHUB_TOKEN  # Set in the settings page of your repository, as a secure variable
+  keep_history: true
