@@ -9,6 +9,7 @@ cache:
 
 install:
     - gem install asciidoctor
+    - mkdir out
  
 script:
-    - asciidoctor -d book test.asciidoc
+    - asciidoctor -v -d book -D out test.asciidoc
