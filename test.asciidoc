@@ -135,7 +135,7 @@ WARNING: andere Browser sind ungeeignet!
 
 = *WAS_FINDE_ICH_WO?_____für_MITGLIEDER ...*
 
-= *... an FabLabNbg-Informationen + -Dokumenten*:
+== *... an FabLabNbg-Informationen + -Dokumenten*:
 
 WARNING: ARBversion 00.35: Vervollständigung der Texte
 
