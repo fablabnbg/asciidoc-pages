@@ -13,7 +13,7 @@ install:
  
 script:
     - asciidoctor -v -d book -D out test.asciidoc
-
+    - asciidoctor -v -d book -D out asciidoc-anleitung.asciidoc
 
 deploy:
   provider: pages
