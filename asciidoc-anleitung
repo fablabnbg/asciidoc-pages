@@ -1,0 +1,2610 @@
+= MIDI____SPICKZETTEL____asciiDOC +++<br/>+++ ERSTAUSGABE
+:verfasser: MAX <max.badelt@gmail.com>
+:version: V00.24--2019-12-24
+:status: WEBAUSFÜHRUNG
+asciiDOC <https://asciidoctor.org>
+:sectanchors:
+:toc:
+:toclevels: 3
+:toc-title: INHALTSVERZEICHNIS
+:toc-placement: right
+:numbered:
+:imagesdir: ../asciiDOC_MIDIspick/BILDER/
+
+'''
+
++++<br/>+++ 
+
+ 
+
+[width="100%", cols="40,10,12,20,12,30", grid=none, frame=none]
+|===
+>|MIDI_SPICKZETTEL_asciiDOC 
+|
+|
+|
+|
+|
+
+>|version:&emsp;V00.24...​2019-12-24
+|
+|
+|
+|
+|
+
+>|ERSTAUSGABE
+|
+|
+|
+|
+|
+
+>|erstellt von: 
+|
+.4+>|image:M_sue.png[M_sue.png,200,200]
+.4+|image:klecks5.png[klecks5.png,200,200]
+.4+>|image:X_sue.png[X_sue.png,160,160]
+|+++<br/><br/><br/><br/>+++*[big]#&#95;der&#95;mit&#95;dem&#95;klex&#95;#*
+
+|===
+
+
+[width="100%", cols="40,10,12,20,12,30", grid=none, frame=none]
+|===
+|||||
+|(lies:
+
+|||||
+|*[big]#MAX#*[small]#&#95;der&#95;mit&#95;dem&#95;klex&#95;#)
+|===
+
+[width="100%", cols="40,10,74", grid=none, frame=none]
+|===
+>|ins Web gestellt von: 
+|
+|*[big]#FABLAB#* [small]#REGION NÜRNBERG#
+
+|
+|
+|image:FABLAB REGION NÜRNBERG.jpg[FABLAB REGION NÜRNBERG.jpg,200,200]
+
+|===
+
+
+
+'''
+
+*MIDI_SPICKZETTEL_asciiDOC*
+
+* soll Dir|Ihnen helfen, beim Erstellen von Dokumenten:
+. gehe zum INHALTSVERZEICHNIS
+. EinfachKlick.li auf das gewünschte Thema
+. Thema ablesen oder BeispielCode kopieren
+. nächstes Thema. +++<br/>+++ 
+* Sofort erkennbar: 
+** Unsere AuskunftDrehscheibe ist das INHALTSVERZEICHNIS.
+** Ein "SUCHEN"-Feld existiert nicht!  
+
+*MIDI_SPICKZETTEL_asciiDOC* ist:
+
+* ein Arbeits-Hilfsmittel
+* ein NachschlageWerk
+* ein HowTo
+* ein SpickZettel
+* ein "WAS_mache_ich_WIE?"
+
+MIDI_SPICKZETTEL_asciiDOC ist *KEIN Lehrgang!* +++<br/>+++
+MIDI_SPICKZETTEL_asciiDOC nennt für die Erstellung von Dokumenten: +++<br/>+++ &emsp; *Syntax-Regeln + Fussangeln*. +++<br/>+++
+Ergänzend wird kurz auf *Vorgehen & Strategie-Aspekte* eingegangen.
+
+NOTE: *BEHANDELT WERDEN:* +++<br/>+++
+&#8226; Erstellung in asciiDOC-Format mittels TextEditor... +++<br/>+++  
+&#8226; ...eines sequentiell zu lesenden Dokumentes +++<br/>+++  
+&#8226; Speicherung und PapierDruck dieses Dokumentes in QuellTextFormat +++<br/>+++
+&#8226; Anzeige im Browser dieses Dokumentes in ZielForm +++<br/>+++  
+&#8226; Speicherung mittels Browser dieses Dokumentes in ZielForm als PDF-Datei+++<br/>+++
+&#8226; PapierDruck dieses Dokumentes in ZielForm. +++<br/>+++ 
+
+IMPORTANT: *(NOCH) NICHT BEHANDELT WERDEN:* +++<br/>+++
+&#8226; (Noch) Unfertiges +++<br/>+++  
+&#8226; Dokument als WebSeite +++<br/>+++  
+&#8226; Dokument als Bildschirm-Dialog +++<br/>+++
+&#8226; nicht vom Browser unterstützte Darstellung einer asciiDOC-Dokument-Datei +++<br/>+++ 
+
+IMPORTANT: *BEACHTE:* +++<br/>+++
+&#8226; Der Verfasser war zum Thema asciiDOC blutiger Anfänger.  +++<br/>+++  
+&#8226; Die Erstellung von MIDI_SPICKZETTEL_asciiDOC diente seiner Einarbeitung quasi ohne Hilfe Dritter. +++<br/>+++  
+&#8226; Die meisten Kapitel haben ihre manchmal skurrile erste Erprobungs&Test-Form beibehalten, da funktionsfähig. +++<br/>+++  
+&#8226; *_Kapitel unter ÜBERSCHRIFTEN IN SCHRÄGSCHRIFT (ITALIC) wurden nachoptimiert..._* +++<br/>+++  
+&#8226; *_... und sind als "VergleichsBeispiel für QuellText in ZielForm" zu empfehlen!_*
+
+*GLIEDERUNG +++<br/>+++ MIDI__SPICKZETTEL__asciiDOC:*
+
+ .
+ 1. EIN_DOKUMENT_MITTELS_TEXT-EDITOR_ERSTELLEN:
+ 2. BEISPIELE:
+ 3. SCHRITT_FÜR_SCHRITT_KURZANLEITUNG:
+ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+ ANHANG_A:
+  ZUR_BEGRÜSSUNG:
+ ANHANG_B:
+  asciiDOC_&_asciiDOCTOR:
+ ANHANG_C:
+  MIDI_SPICKZETTELasciiDOC___ERSTAUSGABE:
+ ANHANG_D:
+  NAVIGATION_TESTS:
+ ANHANG_E:
+  ÜBERSCHRIFTEN_GLIEDERUNG:
+ ANHANG_F:
+  NACHWORT:
+ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+ ANHANG_Z:
+  ARBEITSNOTIZEN+LOP:
+ ANHANG_Y:
+  THEMEN_SAMMLUNG FÜR MAXI_SPICKZETTEL:
+
+
+'''
+
+[[DOKerstell]]
+
+== EIN_DOKUMENT_MITTELS_TEXT-EDITOR_ERSTELLEN:
+
+=== GENERELLES:
+
+IMPORTANT: *BEACHTE: typische "FUSSANGELN" in asciiDOC:* +++<br/>+++ +++<br/>+++ 
+&#8226; vor jedem ÜBERGANG zu neuem Informations-Typ: +++<br/>+++  
+&#8226; &#8226; LEERZEILE! +++<br/>+++  
+&#8226; &#8226; dh LEERZEILE beendet den bisherigen Informations-Typ! +++<br/>+++  +++<br/>+++ 
+&#8226; AUSNAHME: Header-Block: +++<br/>+++  
+&#8226; &#8226; beginnt ohne LeerZeile!!  +++<br/>+++
+&#8226; &#8226; aber endet mit erster LeerZeile!!  +++<br/>+++  +++<br/>+++  
+&#8226; fehlender &#124; falscher TABELLENabschluss: +++<br/>+++
+&#8226; &#8226; bringt GESAMMTES DOKUMENT DURCHEINANDER!!! +++<br/>+++  
+&#8226; &#8226; korrekt ist als letzte Zeile der TabellenDefinition: &#124;===  +++<br/>+++  +++<br/>+++
+&#8226; vielfach hintereinander *wiederholte* Satzzeichen: +++<br/>+++
+&#8226; &#8226; werden reduziert auf *ein* Satzzeichen-Exemplar!+++<br/>+++  
+&#8226; &#8226; zur Wiederholung ist auf UTF8-Code auszuweichen! +++<br/>+++  +++<br/>+++
+
+BEISPIEL für ÜBERGANG zu neuen Informations-Typen:
+
+• ÜBERSCHRIFT > TABELLE > TEXTBLOCK > AUFZÄHLUNG  
+
+BEACHTE AUSSERDEM:
+
+|===
+|EINGABE mittels Editor:    |BEWIRKT im ZielDokument:
+
+|nächste Zeile im Textfluss
+|Leerzeichen
+
+|Leerzeile im Textfluss
+|nächste Zeile
+
+|Leerzeichen = erstes Zeichen eines Textblockes
+|Darstellung als Originaler_TextBlock
+
+|===
+
+=== HEADER:
+
+IMPORTANT: BEACHTE:
+ +++<br/>+++  &#8226; beginnend in oberster Zeile!
+ +++<br/>+++  &#8226; in einem Block zu schreiben ...
+ +++<br/>+++  &#8226;  &#8226; ohne Leerzeile!
+ +++<br/>+++  &#8226;  &#8226; ohne Einrückung!
+ +++<br/>+++  &#8226; Aufbau der Zeilen: 
+ +++<br/>+++  &#8226;  &#8226; *:THEMA:Text*
+ +++<br/>+++  &#8226; Zeilen-Reihenfolge = beliebig! 
+ +++<br/>+++  &#8226; Header wird beendet mittels Leerzeile! 
+
+
+
+==== DOKUMENTVORGABEN: &emsp;&emsp;&emsp;  &#8226; in_arbeit!
+
+[[toc_1]]
+
+==== TOC:
+
+TOC = Table Of Content = Inhaltsverzeichnis
+
+!!!!erarbeiten mit jürgen|ian|chistopher!!!!!!!!!!!!!!!! 
+
+===== EINGABE:
+
+ ﻿:toc:
+ :toclevels: 2
+ :toc-title: Inhaltsverzeichnis
+ :numbered:
+ :toc-placement: right
+
+===== ERGEBNIS:
+
+Komplettes InhaltsVerzeichnis wie hier in: MIDI_SPICKZETTEL_asciiDOC! 
+
+IMPORTANT: BEACHTE: +++<br/>+++ :toc-placement: = +++<br/>+++ &#8226; NICHT_WIRKSAM_IN_CHROME|CHROMIUM!
+
+
+:imagesdir: ../asciiDOC_MIDIspick/BILDER/
+
+
+=== TEXTE+FORMATE:
+
+[[ÜBERS]]
+
+==== DOKUMENT-TITEL & ÜBERSCHRIFTEN:
+
+IMPORTANT: Überschriften: 
++++<br/>+++ &#8226; stehen zwischen LeerZeilen! 
++++<br/>+++ &#8226; beginnen ohne Einrückung! 
++++<br/>+++ &#8226; müssen OHNE ZeilenUmbruch geschieben werden. +++<br/>+++ 
++++<br/>+++ Die Nummerierung aller betroffenen Überschriften: 
++++<br/>+++ &#8226; erfolgt automatisch: 
++++<br/>+++ &#8226; &#8226; wie & sofern unter :TOC: definiert!
+
+ÜBERSCHRIFTEN werden streng hierarchisch gegliedert gemäss: 
+
+>>>_>> +++<br/>+++ <<ÜBERSCHRIFTEN_GLIEDERUNG:>> 
+
+(Das ÜBERSCHRIFTEN-Beispiel musste ausgegliedert werden ans Ende von MIDI_SPICKZETTEL_asciiDOC, +++<br/>+++ 
+da es die Überschriften-Nummerierung des MIDI_SPICKZETTEL-Kernbereiches verfälscht hätte.)
+
+==== STANDARD_TEXTBLOCK:
+
+Sehr simpel: Wie geschrieben , so (fast) angezeigt!
+
+IMPORTANT: TextBlöcke: 
++++<br/>+++ &#8226; stehen zwischen LeerZeilen! 
++++<br/>+++ &#8226; beginnen ohne Einrückung! 
++++<br/>+++ &#8226; am ZeilenAnfang keinesfalls Zeichen ident zu Asciidoc-Befehlen:  
++++<br/>+++ &#8226; &#8226; statt dessen UTF8-"Umschreibung"! 
++++<br/>+++ &#8226; ZeilenUmbruch innerhalb des TextBlocks = ohne Auswirkung! 
++++<br/>+++ &#8226; im QuellCode 2 ZeilenUmbrüche (= *1 Leerzeile*): ergibt NeuZeile! 
++++<br/>+++ &#8226; im QuellCode 3 ZeilenUmbrüche (= *2 Leerzeilen*): ergibt nächsten Absatz (TextBlock)!
+
+===== EINGABE: +++<br/>+++ 4 TextBlöcke mit doppelten LeerZeilen:
+
+"In der Realität sind die Abgrenzungen verwischt und auch Kombinationen unterschiedlicher Strukturen |Generationen innerhalb eines Systemes üblich. Dennoch: Ordnung muss sein, um darüber sprechen zu können!"
++++<br/>+++ +++<br/>+++ 
+
+"…​ (fange niemals ein Schriftstück mit "ich " an, hatte uns die Deutschlehrerin eingebleut
+doch jetzt bin ich erwachsen, soo erwachsen, dass andre mich alt nennen, …​ was meine Freiheiten mächtig erweitert bezüglich:..."
++++<br/>+++ +++<br/>+++ 
+
+"Paragraphs don't require any special markup in AsciiDoc.
+A paragraph is just one or more lines of consecutive text.Paragraphs don't require any special markup in AsciiDoc.
+A paragraph is just one or more lines of consecutive text."
++++<br/>+++ +++<br/>+++ 
+
+To begin a new paragraph, separate it by at least one blank line.
+Newlines within a paragraph are not displayed.
+To begin a new paragraph, separate it by at least one blank line.
+Newlines within a paragraph are not displayed.
++++<br/>+++ +++<br/>+++ 
+
+===== ERGEBNIS:
+
+
+"In der Realität sind die Abgrenzungen verwischt und auch Kombinationen unterschiedlicher Strukturen |Generationen innerhalb eines Systemes üblich. Dennoch: Ordnung muss sein, um darüber sprechen zu können!"
+
+
+"…​ (fange niemals ein Schriftstück mit "ich " an, hatte uns die Deutschlehrerin eingebleut
+doch jetzt bin ich erwachsen, soo erwachsen, dass andre mich alt nennen, …​ was meine Freiheiten mächtig erweitert bezüglich:..."
+
+
+"Paragraphs don't require any special markup in AsciiDoc.
+A paragraph is just one or more lines of consecutive text.Paragraphs don't require any special markup in AsciiDoc.
+A paragraph is just one or more lines of consecutive text."
+
+
+To begin a new paragraph, separate it by at least one blank line.
+Newlines within a paragraph are not displayed.
+To begin a new paragraph, separate it by at least one blank line.
+Newlines within a paragraph are not displayed.
+
+[[ORIGTEXT]]
+
+==== ORIGINALER_TEXTBLOCK:
+
+Originaler_TextBlock bleibt erhalten wie eingegeben.
+
+IMPORTANT: originaler_TextBlock: 
++++<br/>+++  &#8226; ist nahezu identisch zu STANDARD_TEXTBLOCK! 
++++<br/>+++  &#8226; beginnt jedoch mit Einrückung! 
++++<br/>+++  &#8226; STEUERZEICHEN etc werden unwirksam ...  
++++<br/>+++  &#8226; ... aber bleiben erhalten & sichtbar! 
++++<br/>+++ &#8226; ein nachfolgender TextBlock (2 Leerzeilen!) ist ohne eigene Einrückung wieder STANDARD_TEXTBLOCK!
+
+===== EINGABE +++<br/>+++ TextBlöcke 1+3 sind originaler_TextBlock:
+
+&emsp;"In der Realität sind die Abgrenzungen verwischt und auch Kombinationen unterschiedlicher Strukturen |Generationen innerhalb eines Systemes üblich. Dennoch: Ordnung muss sein, um darüber sprechen zu können!"
++++<br/>+++ +++<br/>+++ 
+
+"…​ (fange niemals ein Schriftstück mit "ich " an, hatte uns die Deutschlehrerin eingebleut
+doch jetzt bin ich erwachsen, soo erwachsen, dass andre mich alt nennen, …​ was meine Freiheiten mächtig erweitert bezüglich:..."
++++<br/>+++ +++<br/>+++ 
+
+&emsp;"&#42;Paragraphs&#42; don't require any special markup in AsciiDoc.
+A paragraph is just one or more lines of consecutive text.Paragraphs don't require any special markup in AsciiDoc.
+A paragraph is just one or more lines of consecutive text."
++++<br/>+++ +++<br/>+++ 
+
+&#42;To begin&#42; a new paragraph, separate it by at least one blank line.
+Newlines within a paragraph are not displayed.
+To begin a new paragraph, separate it by at least one blank line.
+Newlines within a paragraph are not displayed.
+
+===== ERGEBNIS:
+
+ "In der Realität sind die Abgrenzungen verwischt und auch Kombinationen unterschiedlicher Strukturen |Generationen innerhalb eines Systemes üblich. Dennoch: Ordnung muss sein, um darüber sprechen zu können!"
+
+"…​ (fange niemals ein Schriftstück mit "ich " an, hatte uns die Deutschlehrerin eingebleut
+doch jetzt bin ich erwachsen, soo erwachsen, dass andre mich alt nennen, …​ was meine Freiheiten mächtig erweitert bezüglich:..."
+
+ "*Paragraphs* don't require any special markup in AsciiDoc.
+A paragraph is just one or more lines of consecutive text.Paragraphs don't require any special markup in AsciiDoc.
+A paragraph is just one or more lines of consecutive text."
+
+*To begin* a new paragraph, separate it by at least one blank line.
+Newlines within a paragraph are not displayed.
+To begin a new paragraph, separate it by at least one blank line.
+Newlines within a paragraph are not displayed.
+
+==== ASCIIDOCs_SCHRIFTFORMATE_IM_TEXTFLUSS: &emsp;&emsp;&emsp;  &#8226; unvollständig!
+
+SchriftFormate lassen sich im TextFluss feingranular an jeder ZeichenPosition verändern:
+
+Verwendet werden die Zeichen: &emsp; ` &emsp; * &emsp; _
+
+|===
+|WAS: |EINGABE-BEISPIEL: |ERGEBNIS: 
+
+|MONOSPACE: 
+| &#96; mach mich konstant! &#96;, but me not! 
+|`mach mich konstant!`, but me not!
+
+|FETT: 
+| &#42; mach mich fett! &#42;, but me not! 
+|*mach mich fett!*, but me not!
+
+|ITALIC: 
+| &#95; mach mich schräg! &#95;, but me not! 
+|_mach mich schräg!_, but me not!
+|===
+
+IMPORTANT: !!!!!!!!MIR FEHLEN DRINGEND!!!!!!!!!!!!!: 
++++<br/>+++ SchriftFormate|SteuerZeichen für: 
++++<br/>+++ &emsp; &#8226; Schrift_stark_VERGRÖSSERN 
++++<br/>+++ &emsp; &#8226; Schrift_stark_VERKLEINERN 
++++<br/>+++ &emsp; &#8226; Schrift_VERSTECKEN 
++++<br/>+++ &emsp; &#8226; Schrift_ERSETZEN 
++++<br/>+++ &emsp; &#8226; &#8226; (... Ersetzen ersetzt Verstecken!?)
++++<br/>+++ &emsp; &#8226; NEUE Seite
+
+===== FORMATE_KOMBINIEREN:
+
+* Beim FORMATE_KOMBINIEREN ist asciiDOC ausgesprochen sensibel:
+
+IMPORTANT: BEACHTE: +++<br/>+++ 
+&emsp; &#8226; Reihenfolge der FormatSymbole (aussen > innen > aussen) exakt gem Tabelle einhalten! +++<br/>+++ 
+&emsp; &#8226; was nicht benötigt, "paarweise" weglassen!+++<br/>+++ 
+&emsp; &#8226; PositionsVersatz = erlaubt unter Beibehaltung der Reihenfolge!  
+
+|===
+|WAS: |EINGABE: |ERGEBNIS: 
+
+|KOMBINATION:  
++++<br/>+++ &emsp; 1. MONO    = M
++++<br/>+++ &emsp; 2. FETT    = F 
++++<br/>+++ &emsp; 3. ITALIC  = I 
+| davor &#96; &#42; &#95; innen mit M+F+I &#95; &#42; &#96; danach
+| davor `*_innen mit M+F+I_*` danach
+
+|VERSETZTE_KOMBINATION: 
+| davor &#96;MONO &#42; M+FETT &#95; M+F+ITALIC innen &#95; &#42; &#96; danach
+| davor `MONO *M+FETT _M+F+ITALIC innen_*` danach
+|===
+
+==== HTML_STEUERZEICHEN_IM_TEXTFLUSS: &emsp;&emsp;  &#8226; unvollständig!
+
+HTML-Steuerzeichen lassen sich im TextFluss feingranular an jeder ZeichenPosition einfügen:
+
+|===
+|WAS: |EINGABE: |ERGEBNIS: 
+
+|UNTERSTREICHEN: 
+|&#43; &#43; &#43; <u>underline me</u> &#43; &#43; &#43; , but me not! 
+|+++<u>underline me</u>+++, but me not!
+
+|DURCHSTREICHEN: 
+|&#43; &#43; &#43; <s>streich mich durch</s> &#43; &#43; &#43; , aber mich nicht! 
+|+++<s>streich mich durch</s>+++, aber mich nicht!
+
+|VERKLEINERN um eine Stufe:
+|Sometimes &#91;small&#93;&#35;smaller text&#35; is nice,
+|Sometimes [small]#smaller text# is nice,
+
+|VERGRÖSSERN um eine Stufe:
+|sometimes &#91;big&#93;&#35;larger&#35; is better
+|sometimes [big]#larger# is better 
+|===
+
+BEISPIEL FÜR FARBGEBUNG & KOMBINATION:
+
+====== EINGABE: +++<br/><br/>+++ 
+
+&#91;red&#93;&#35;red text&#35; &#91;yellow-background&#93;&#35;on yellow&#35;
+&#91;big&#93;&#35;large&#35; &#91;red yellow-background big&#93;&#42;all bold&#42;
+
+
+====== ERGEBNIS: +++<br/><br/>+++ 
+
+[red]#red text# [yellow-background]#on yellow#
+[big]#large# [red yellow-background big]*all bold*
+
+===== STEUERZEICHEN_KOMBINIEREN:
+
+* Beim STEUERZEICHEN_KOMBINIEREN ist asciiDOC sensibel:
+
+IMPORTANT: BEACHTE: 
++++<br/>+++ &emsp; &#8226; was nicht benötigt, "paarweise" weglassen!
++++<br/>+++ &emsp; &#8226; PositionsVersatz = erlaubt unter Beibehaltung der Reihenfolge!  
+
+|===
+|WAS: |EINGABE: |ERGEBNIS: 
+
+|KOMBINATION: 
++++<br/>+++ &emsp; &#8226; UNTERSTREICHEN 
++++<br/>+++ &emsp; &#8226; DURCHSTREICHEN 
+| &#43; &#43; &#43; <u><s>kombiniere mich </s></u> &#43; &#43; &#43; , aber mich nicht! 
+| +++<u><s>+++ kombiniere mich +++</s></u>+++, aber mich nicht! 
+
+
+|VERSETZTE_KOMBINATION: 
+| &#43; &#43; &#43; <u><s>kombiniere </s>mich </u> &#43; &#43; &#43; , aber mich nicht! 
+| +++<u><s>+++ kombiniere +++</s>+++mich +++</u>+++, aber mich nicht! 
+|===
+
+==== ASCIIDOCs_SCHRIFTFORMATE_UND_HTML_STEUERZEICHEN_KOMBINIEREN:
+
+* SchriftFormate & SteuerZeichen lassen sich im TextFluss kombinieren.
+
+IMPORTANT: Die Kombination SchriftFormate & SteuerZeichen 
++++<br/>+++ &emsp; &#8226;  = jedoch besonders sensibel...
++++<br/>+++ &emsp; &#8226; ... und wird aus Zeitmangel zurückgestellt. 
++++<br/>+++ &emsp; &#8226; 
+sofern unverzichtbar: SELBST_TESTEN!
+
+==== UTF8_IM_TEXTFLUSS +++<br/>+++ &emsp; &emsp; &#8226; BUCHSTABE &emsp; &#8226; ZIFFER &emsp; &#8226; SYMBOL &emsp; &#8226; EMOJ:
+
+asciiDOC & asciiDOCTOR haben die wunderbare Eigenschaft, 
+die *darstellbaren UTF8-Zeichen* zu unterstützen, 
+dh. asciiDOC & asciiDOCTOR steht die gesammte internationale Welt offen.
+
+
+Die *Arbeitsschritte für Einfügen von UTF8-Zeichen* sehen wie folgt aus:
+
+. ich hole mir ein Zeichen aus Zeichentabellen+Schriftsystemen zB: 
+* https://www.key-shortcut.com/schriftsysteme/35-symbole/symbole-typographie
+* https://www.key-shortcut.com/zeichentabellen/unicode-0000-0fff >>>->> Zeichentabellen >>>->> gewünschte ZahlenGruppe
+* https://de.wikipedia.org/wiki/American_Standard_Code_for_Information_Interchange#ASCII-Tabelle
+. kopiere dies "feingranular positioniert" in mein Dokument:
+*  dasZeichen ...
+* ... oder - falls das Probleme macht -  :
+** den UTF8-DezimalCode &emsp; = &emsp; &#__;
+** den UTF8-HexaDezimalCode &emsp; = &emsp; &#x___;
+. kontrolliere, was der Browser anzeigt.
++++<br/>+++ 
+
+IMPORTANT: BEACHTE: +++<br/>+++ 
++++<br/>+++  &#8226; UTF8 enthält die *ASCII*-Zeichen als Untermenge (mit identischer CodeNummer).
++++<br/>+++  &#8226; asciiDOCTOR unterstützt *NICHT JEDES* UTF8-*STEUERZEICHEN*...
++++<br/>+++ &emsp; ... aber anscheinend alle UTF8 -: &emsp; • -BUCHSTABEn &emsp; • -ZIFFERn &emsp; • -SYMBOLe &emsp; • -EMOJs
+
++++<br/>+++ 
+
+==== wichtige SATZZEICHEN:
+
+|===
+|WAS: |DIREKT-EINGABE: |oder: +++<br/>+++ UTF8-CODE: |ERGEBNIS: |ANMERKUNG:
+
+|Leerzeichen:
+|
+|
+|
+|>>>->> <<LEERzeich>>
+
+|Punkt
+| .
+|&#38;&#35;46&#59;
+| .
+|
+
+|Komma
+| ,
+|&#38;&#35;44&#59;
+| ,
+|
+
+|Strichpunkt
+| ;
+|&#38;&#35;59&#59;
+| ;
+|
+
+|Doppelpunkt
+| :
+|&#38;&#35;58&#59;
+| :
+|
+
+|Ausrufezeichen
+| !
+|&#38;&#35;33&#59;
+| !
+|
+
+|Fragezeichen
+| ?
+|&#38;&#35;63&#59;
+| ?
+|
+
+|Bindestrich
+| -
+|&#38;&#35;45&#59;
+| -
+|kürzer als Gedankenstrich
+
+|Gedankenstrich
+| .
+|&#38;&#35;????????????????????????&#59;
+| .
+|länger als Bindestrich
+
+|Unterstrich
+| _
+|&#38;&#35;95&#59;
+| _
+|
+
+|Doppelstrich
+| =
+|&#38;&#35;61&#59;
+| =
+|
+
+|Anführung.unten 
+|&#8222;
+|&#38;&#35;8222&#59;
+|&#8222;
+|
+
+|Anführung.oben
+| "
+|&#38;&#35;34;&#59;
+| "
+|
+|Apostroph 
+| '
+|&#38;&#35;8217&#59;
+| '
+|
+
+|Klammer.rund.auf
+| (
+|&#38;&#35;40&#59;
+| (
+|
+
+|Klammer.rund.zu
+| )
+|&#38;&#35;41&#59;
+| )
+|
+
+|Klammer.eckig.auf
+| [
+|&#38;&#35;91&#59;
+| [
+|
+
+|Klammer.eckig.zu
+| ]
+|&#38;&#35;93&#59;
+| ]
+|
+
+
+|Klammer.schweif.auf
+| {
+|&#38;&#35;123&#59;
+| {
+|
+
+|Klammer.schweif.zu
+| }
+|&#38;&#35;125&#59;
+| }
+|
+
+|Schrägstrich
+| /
+|&#38;&#35;47&#59;
+| /
+|
+
+|kaufmannsUND
+| &
+|&#38;&#35;38&#59;
+| &
+|
+
+|===
+
+==== wichtige MARKIER-ZEICHEN: &emsp;&emsp;&emsp;  &#8226; in Arbeit!
+|===
+|*WAS:* |*DIREKT-EINGABE:* |*oder: +++<br/>+++ UTF8-CODE:* |*ERGEBNIS:* |*ANMERKUNG:*
+|===
+ Stern                    *                        *            
+ Raute                    #                        #
+ Paragraph                §                        §
+ Spiegelstrich       ??????????????       ?????????????????????
+ Doppelstrich             =                   &#38;&#35;61&#59;         =
+ Kreis.voll          ??????????????       ????????????????????? 
+ Kreis.mager         ??????????????       ????????????????????? 
+ Kreis.voll          ??????????????       ????????????????????? 
+ Kreis.mager         ??????????????       ????????????????????? 
+ Pfeil.voll          ??????????????       ????????????????????? 
+ Pfeil.mager         ??????????????       ????????????????????? 
+ Pfeil.offen              >                        >
+
+==== KAUFMANN-ZEICHEN: &emsp;&emsp;&emsp;  &#8226; unvollständig!
+
+ Euro                €                                                      €
+ Dollar              $                   &#38;&#35;36&#59;                  $
+ Pfund
+ kaufmannsUND        &                   &#38;&#35;38&#59;                  &
+ Prozent             %                   &#38;&#35;37&#59;                  %
+ Promille            ??????????????      ????????????????????? 
+ Istgleich           =                   &#38;&#35;61&#59;                  =
+
+==== MATHEMATIK:
+
+>>>_>> https://unicode-table.com/de/blocks/mathematical-operators/
+( = UTF8/2200—22FF)
+
+
+==== MENGEN LOGIK & LEHRE: &emsp;&emsp;&emsp;  &#8226; in Arbeit!
+
+
+==== RÖM-ZIFFERN: &emsp;&emsp;&emsp;  &#8226; unfertig!
+
+Die heutzutage verwendeten römischen Ziffern:
+
+U+2160	Ⅰ	ROMAN NUMERAL ONE           +++<br/>+++ 
+U+2164	Ⅴ	ROMAN NUMERAL FIVE           +++<br/>+++ 
+U+2169	Ⅹ	ROMAN NUMERAL TEN           +++<br/>+++ 
+U+216C	L	ROMAN NUMERAL FIFTY           +++<br/>+++ 
+U+216D	C	ROMAN NUMERAL ONE HUNDRED           +++<br/>+++ 
+U+216E	D	ROMAN NUMERAL FIVE HUNDRED           +++<br/>+++ 
+U+216F	M	ROMAN NUMERAL ONE THOUSAND           +++<br/>+++ 
+
+ Zeichen:	I	V	X	 L	  C  	D     M
+ 
+ = Wert:  	1	5	10	 50	  100	500   1000
+
+==== GRIECH-BUCHSTABEN (AUSWAHL): &emsp;&emsp;&emsp;  &#8226; in Arbeit!
+
+==== GERÄTE & MASCHINEN: &emsp;&emsp;&emsp;  &#8226; unvollständig!
+
+ↀ
++++<br/>+++ &#61; Römische Zahl eintausend C D
++++<br/>+++ &#61; Roman Numeral One Thousand C D
++++<br/>+++ &#61; Unicode-Nummer: U+2180
++++<br/>+++ &#61; HTML-Code: &#8576;
+
+==== ELEKTROTECHNIK: &emsp;&emsp;&emsp;  &#8226; in Arbeit!
+
+Sinus
+Wechselstrom
+U+223F
+  
+Kopieren und einfügen
+∿
+Technical information
+Name	Sine Wave
+Unicode-Nummer	
+U+223F
+HTML-Code	
+&#8767;
+CSS-code	
+\223F
+Block	Mathematische Operatoren
+Unicode-Version:	1.1.5 (1993)
+Eintragung des Zeichens in verschiedenen Schriftarten
+∿Ihrem Browser ∿Arial ∿Times New Roman
+Charakterbeschreibung
+Sinus. Mathematische Operatoren.
+Codierung
+Codierung	hex	dec (bytes)	dec	binary
+UTF-8	E2 88 BF	226 136 191	14846143	11100010 10001000 10111111
+UTF-16BE	22 3F	34 63	8767	00100010 00111111
+UTF-16LE	3F 22	63 34	16162	00111111 00100010
+UTF-32BE	00 00 22 3F	0 0 34 63	8767	00000000 00000000 00100010 00111111
+UTF-32LE	3F 22 00 00	63 34 0 0	1059192832	00111111 00100010 00000000 00000000
+
+==== EMOJS: &emsp;&emsp;&emsp;  &#8226; in Arbeit!
+
+zwischen Emoticons und Smileys ist zu unterscheiden!!
+
+Details & sortiert nach Bedeutung: 
+
+* https://www.smileybedeutung.com/
+* https://de.wiktionary.org/wiki/Verzeichnis:International/Smileys
+
+BEISPIELE:
+
+|===
+|WAS: |ZEICHEN-EINGABE: |oder: +++<br/>+++ UTF8-EINGABE: |ERGEBNIS: |ANMERKUNG:
+
+|Lira (Währung)
+|₤
+|&#38;&#35;&#56;&#51;&#53;&#54;&#59;
+|₤
+|
+
+|schwarzes Lächeln
+|☻
+|&#38;&#35;&#57;&#55;&#56;&#55;&#59;
+|☻
+|
+
+|===
+
+Eine wunderbare Eigenschaft: mit Vergrösserung spielen:
+
+|===
+|WAS: |ZEICHEN-EINGABE: |oder: +++<br/>+++ UTF8-EINGABE: |ERGEBNIS: |ANMERKUNG:
+
+|schwarzes Lächeln
+|☻
+|&#38;&#35;&#57;&#55;&#56;&#55;&#59;
+|☻
+|
+
+|schwarzes Lächeln.vergrössert
+|&#91;big&#93;#☻#
+|&#38;&#35;&#57;&#55;&#56;&#55;&#59;
+|[big]#☻#
+|nur 1 (geringe) Vergrösserungsstufe möglich!
+
+|Herz   icon:&#9829;[5x]
+|icon&#58;heart&#91;5x&#93;
+|?????????????????
+|icon:heart[5x]
+|5-fach vergrössert!
+
+|===
+
++++<br/>+++ 
+
+=== DATENCONTAINER:
+
+Daten in hoher Anzahl lassen sich auf unterschiedlichste Weise anordnen|anzeigen.
+
+IMPORTANT: BEACHTE: +++<br/>+++ 
+&emsp; Nachfolgende UnterKapitel folgen dem Schema: +++<br/>+++ 
+&emsp; &#8226; <ÜBERSCHRIFT:> = optional +++<br/>+++ 
+&emsp; &#8226; &#8226; dann: EINGABE: Beispiel +++<br/>+++ 
+&emsp; &#8226; &#8226; &#8226; die Titel-Zeile kann weggelassen werden!   +++<br/>+++
+&emsp; &#8226; &#8226; sodann: ERGEBNIS: der Eingabe.
+
+==== LISTE:
+
+===== EINGABE: +++<br/><br/>+++ 
+
+&#46;OPTIONALER_TITEL: +++<br/>+++ 
+&#42; element.erstes +++<br/>+++ 
+&#42; &#42; ebene.tiefer +++<br/>+++ 
+&#42; &#42; &#42; ebene.tiefer.tiefer +++<br/>+++ 
+&#42; &#42; &#42; &#42; ebene.tiefer.tiefer.tiefer +++<br/>+++ 
+&#42; element.nächstes
+
+===== ERGEBNIS: +++<br/><br/>+++ 
+
+.OPTIONALER_TITEL:
+* element.erstes
+** ebene.tiefer
+*** ebene.tiefer.tiefer
+**** ebene.tiefer.tiefer.tiefer
+* element.nächstes
+
+==== AUFZÄHLUNG:
+
+===== EINGABE: +++<br/><br/>+++ 
+
+&#46;OPTIONALER_TITEL: +++<br/>+++ 
+&#46; element +++<br/>+++ 
+&#46; &#46; ebene.tiefer +++<br/>+++ 
+&#46; &#46; ebene.tiefer +++<br/>+++ 
+&#46; &#46; ebene.tiefer +++<br/>+++ 
+&#46; &#46; &#46; ebene.tiefer.tiefer +++<br/>+++ 
+&#46; &#46; &#46; ebene.tiefer.tiefer +++<br/>+++ 
+&#46; &#46; &#46; ebene.tiefer.tiefer +++<br/>+++ 
+&#46; &#46; &#46; &#46; ebene.tiefer.tiefer.tiefer +++<br/>+++ 
+&#46; &#46; &#46; &#46; ebene.tiefer.tiefer.tiefer +++<br/>+++ 
+&#46; &#46; &#46; &#46; &#46; ebene.tiefer.tiefer.tiefer.tiefer +++<br/>+++ 
+&#46; &#46; &#46; &#46; &#46; ebene.tiefer.tiefer.tiefer.tiefer +++<br/>+++ 
+&#46; &#46; &#46; &#46; &#46; ebene.tiefer.tiefer.tiefer.tiefer +++<br/>+++ 
+&#46; &#46; &#46; &#46; ebene.tiefer.tiefer.tiefer +++<br/>+++ 
+&#46; element.nächstes +++<br/>+++ 
+&#46; &#46; ebene.tiefer +++<br/>+++ 
+&#46; &#46; &#46; ebene.tiefer.tiefer +++<br/>+++ 
+&#46; &#46; &#46; &#46; ebene.tiefer.tiefer.tiefer +++<br/>+++ 
+&#46; element.nächstes
+
+===== ERGEBNIS:  +++<br/><br/>+++ 
+
+.OPTIONALER_TITEL:
+. element
+.. ebene.tiefer
+.. ebene.tiefer
+.. ebene.tiefer
+... ebene.tiefer.tiefer
+... ebene.tiefer.tiefer
+... ebene.tiefer.tiefer
+.... ebene.tiefer.tiefer.tiefer
+.... ebene.tiefer.tiefer.tiefer
+..... ebene.tiefer.tiefer.tiefer.tiefer
+..... ebene.tiefer.tiefer.tiefer.tiefer
+..... ebene.tiefer.tiefer.tiefer.tiefer
+.... ebene.tiefer.tiefer.tiefer
+. element.nächstes
+.. ebene.tiefer
+... ebene.tiefer.tiefer
+.... ebene.tiefer.tiefer.tiefer
+. element.nächstes
+
+==== LABEL_LISTE_STANDARD:
+
+===== EINGABE: +++<br/><br/>+++ 
+
+
+&#46;OPTIONALER_TITEL: +++<br/>+++ 
+Label&#58; &#58; Beschreibung +++<br/>+++ 
+noch ein Label&#58; &#58; eine weitere Beschreibung +++<br/>+++ 
+* Label&#58; &#58; nicht echt kombinierbar mit LISTE, jedoch Label eingerückt! +++<br/>+++ 
+** noch ein Label&#58; &#58; nicht echt kombinierbar mit LISTE, jedoch Label eingerückt! 
+
+===== ERGEBNIS: +++<br/><br/>+++ 
+
+.OPTIONALER_TITEL:
+Label:: Beschreibung
+noch ein Label:: eine weitere Beschreibung
+* Label:: nicht kombinierbar mit LISTE, jedoch Label eingerückt! 
+** noch ein Label:: nicht kombinierbar mit LISTE, jedoch Label eingerückt! 
+
+==== LABEL_LISTE_HORIZONTAL:
+
+===== EINGABE: +++<br/><br/>+++ 
+
+
+&#46;OPTIONALER_TITEL: +++<br/>+++ 
+&#91;horizontal&#93; +++<br/>+++ 
+Label&#58; &#58; Beschreibung +++<br/>+++ 
+noch ein Label&#58; &#58; eine weitere Beschreibung +++<br/>+++ 
+* Label&#58; &#58; nicht echt kombinierbar mit LISTE, jedoch Label eingerückt! +++<br/>+++ 
+** noch ein Label&#58; &#58; nicht echt kombinierbar mit LISTE, jedoch Label eingerückt!
+
+===== ERGEBNIS: +++<br/><br/>+++ 
+
+.OPTIONALER_TITEL:
+[horizontal]
+Label:: Beschreibung
+noch ein Label:: eine weitere Beschreibung
+* Label:: nicht kombinierbar mit LISTE, jedoch Label eingerückt!
+** noch ein Label:: nicht kombinierbar mit LISTE, jedoch Label eingerückt!
+
+
+==== CHECK_LISTE:
+
+===== EINGABE: +++<br/><br/>+++ 
+
+&#46;OPTIONALER_TITEL: +++<br/>+++ 
+&#45; &#91; &#93; noch nicht erledigt +++<br/>+++ 
+&#45; &#91;&#42;&#93;  erledigt
+
+===== ERGEBNIS: +++<br/><br/>+++ 
+
+.OPTIONALER_TITEL:
+- [ ] noch nicht erledigt
+- [*] erledigt
+
+==== TABELLEN:
+
+asciiDOC unterstützt Tabellen mannigfaltig.
+
+Ich habe vieles ausprobiert:
+
+* die meisten Tabellen-QuellCode-Vorlagen sind ...
+** *Ramsch!!:*
+*** ... unlogisch 
+*** ... unübersichtlich
+*** ... arbeitsaufwendig!
+
+Ich habe zwei Ausführungen optimiert. Sie sind als QuellCode-KopieVorlage nachfolgend erläutert:
+ 
+IMPORTANT: für Tabellen gilt generell: +++<br/>+++ &ensp; &#8226; &ensp; die Anzahl an "|" muss korrekt sein, ... +++<br/>+++ &ensp; &#8226; &#8226; &ensp; ... sonst fehlen Spalten | Zeilen | Felder | Daten! +++<br/>+++ &ensp; &#8226; &ensp; bei leeren Feldern folgen zwei || direkt ohne Zwischeneintrag ... +++<br/>+++ &ensp; &#8226; &#8226; &ensp; die GesamtAnzahl der | ist wie bei "voller" Tabelle!
+
+===== SIMPEL-TABELLE: +++<br/>+++ 
+
+====== EINGABE:
+
+ .OPTIONALER_TITEL:
+ |===
+ |<INHALTspalte_1/zeile_1> |<INHALTspalte_2/zeile_1>   |<INHALTspalte_3/zeile_1>
+ |<INHALTspalte_1/zeile_2> ||<INHALTspalte_3/zeile_2>
+ |===
+
+====== ERGEBNIS: +++<br/><br/>+++ 
+
+.OPTIONALER_TITEL:
+|===
+|<INHALTspalte_1/zeile_1> |<INHALTspalte_2/zeile_1>   |<INHALTspalte_3/zeile_1>
+|<INHALTspalte_1/zeile_2> ||<INHALTspalte_3/zeile_2>
+|===
+
+===== STANDARD-TABELLE:      &ensp;&#8226;&ensp;
+
+IMPORTANT: BEACHTE: +++<br/>+++ &emsp; &#8226; was zusätzlich benötigt wird: +++<br/>+++ &emsp; &#8226; &#8226; ergänzen!  +++<br/>+++ &emsp; &#8226; was nicht benötigt wird: +++<br/>+++ &emsp; &#8226; &#8226; weglassen!
+
+IMPORTANT: Der &ensp; . &ensp; vor tabelleNAME erzeugt die fortlaufende TabellenNummer ... +++<br/>+++ &ensp; &#8226; &ensp; ... kann weggelassen werden! +++<br/>+++ Die Leerzeile nach spalteNAME erzeugt die spalteNAME-Fettschrift ... +++<br/>+++ &ensp; &#8226; &ensp; ... daher: NICHT WEGLASSEN! +++<br/>+++ weitere Leerzeilen dienen der Übersichtlichkeit ... +++<br/>+++ &ensp; &#8226; &ensp; ... könnten weggelassen werden ... was nicht so gut ist!
+
+====== EINGABE: +++<br/>+++ 
+
+ .<tabelleNAME>
+ |===
+ ||<spalteNAME_1> |<spalteNAME_2> |<spalteNAME_3 |<spalteNAME_4>
+
+ |*<zeileNAME_1>*
+ |<INHALTspalte_1+zeile_1>
+ |<INHALTspalte_2+zeile_1>
+ |<INHALTspalte_3+zeile_1>
+ |<INHALTspalte_4+zeile_1>
+
+ |*<zeileNAME_2>*
+ |<INHALTspalte_1+zeile_2>
+ |
+ |<INHALTspalte_3+zeile_2>
+ |<INHALTspalte_4+zeile_2>
+ |===
+
+====== ERGEBNIS: +++<br/><br/>+++ 
+
+.<tabelleNAME>
+|===
+||<spalteNAME_1> |<spalteNAME_2> |<spalteNAME_3 |<spalteNAME_4>
+
+|*<zeileNAME_1>*
+|<INHALTspalte_1+zeile_1>
+|<INHALTspalte_2+zeile_1>
+|<INHALTspalte_3+zeile_1>
+|<INHALTspalte_4+zeile_1>
+
+|*<zeileNAME_2>*
+|<INHALTspalte_1+zeile_2>
+|
+|<INHALTspalte_3+zeile_2>
+|<INHALTspalte_4+zeile_2>
+|===
+
++++<br/>+++ +++<br/>+++
+
+=== DOKUMENTGESTALTUNG:
+
+IMPORTANT: asciiDOC erzeugt Dokumente +++<br/>+++ KEINE Plakate, Zeitschriften, Zeitungen, Wurfzettel, Briefe, ...! 
+
+asciiDOCs Dokumenten-Erzeugung ist überzeugend!
+
+* Das Dokumenten-Konzept entspricht dem eBook: 
+** Inhalt seriell fortlaufend
+** einspaltig....ausser bei Tabellen etc.
+
+asciiDOC ist trotz Einschränkungen mit einer ÜberFülle an Ergänzungen & Optimierungen ausstattet. 
+
+* Nachfolgend eine Auswahl-Übersicht zur DOKUMENTGESTALTUNG:
+
+==== GESTALTUNGS-ELEMENTE-ÜBERSICHT:
+
+.GESTALTUNGS-ELEMENTE: +++<br/><br/>+++ 
+
+|===
+|WAS: |EINGABE: |ANMERKUNG: |ERGEBNIS:
+
+|LEERZEICHEN:
+|>>>->> <<LEERzeich>>
+|
+|>>>->> <<LEERzeich>>
+
+|ÜBERSCHRIFTEN:
+|>>>_> <<ÜBERS>>
+|
+|>>>_> <<ÜBERS>>
+
+|NEUE_ZEILE & LEERZEILEN: 
+|zeileX &#43; &#43; &#43; <br/><br/><br/> &#43; &#43; &#43; zeileX+4
+|
+| zeileX +++<br/><br/><br/>+++ zeileX+4
+
+|HORIZONTAL_LINIEN: 
+| ` ` `
+|[quote] wie in tabelle anzeigen????????
+|
+
+|LEERER_SEITENBEREICH +++<br/>+++ &#124; EXTREME_EINRÜCKUNG:
+|
+|verwende & >>>_>> <<ORIGTEXT>>
+|
+
+|SYMBOL +++<br/>+++ MIT_TEXTFELD:
+|>>>_> <<SYMTEXT>>
+|
+|>>>_> <<SYMTEXT>>
+
+|SYMBOL +++<br/>+++ MIT_STRUKTURIERTEM_TEXTFELD:
+|>>>_> <<SYMSTRUK>>
+|
+|>>>_> <<SYMSTRUK>>
+
+|BILD
+|>>>_> <<BILD>>
+|
+|>>>_> <<BILD>>
+
+|VIDEO
+|>>>_> <<VIDEO>>
+|
+|>>>_> <<VIDEO>>
+
+|AUDIO
+|>>>_> <<AUDIO>>
+|
+|>>>_> <<AUDIO>>
+
+|===
+
++++<br/>+++ +++<br/>+++ 
+
+[[LEERzeich]]
+
+==== LEERZEICHEN:
+
+. LEERZEICHEN: +++<br/><br/>+++ 
+
+|===
+|WAS: |EINGABE: |ANMERKUNG: |ERGEBNIS:
+
+|LEERZEICHEN.fiktiv
+|iii&#38;&#35;8203&#59;iii
+|UmbruchPosition
+|iii&#8203;iii
+
+|LEERZEICHEN.extrem_schmal
+|iii&#38;&#35;8202&#59;iii
+|
+|iii&#8202;iii
+
+|LEERZEICHEN.sehr_schmal
+|iii&#38;thinsp&#59;iii
+|
+|iii&thinsp;iii
+
+|LEERZEICHEN.schmal
+|iii&#38;&#35;160&#59;iii
+|
+|iii&#160;iii
+
+|LEERZEICHEN.schmal
+|iii&#38;&#35;2009&#59;iii
+|
+|iii&#x2009;iii
+
+|LEERZEICHEN.schmal+umbruchgeschützt
+|iii&#38;nbsp&#59;iii
+|
+|iii&nbsp;iii
+
+|LEERZEICHEN.schmal+umbruchgeschützt
+|iii&#38;&#35;8239&#59;iii
+|
+|iii&#8239;iii
+
+|LEERZEICHEN.normal
+|iii&#38;ensp&#59;iii
+|
+|iii&ensp;iii
+
+|LEERZEICHEN.breit
+|iii&#38;emsp&#59;iii
+|
+|iii&emsp;iii
+
+|LEERZEICHEN.breit
+|iii&#38;&#35;2423&#59;iii
+|!!!!!!!!!!!noch NICHT ok !!!!!!!!!!!!!!!!!
+|iii&#2423;iii
+
+|===
+
+Weitere Deteils zu LEERZEICHEN: https://de.wikipedia.org/wiki/Leerzeichen
+
++++<br/>+++ 
+
+[[SYMTEXT]]
+
+==== SYMBOL_MIT_TEXTFELD:
+
+asciiDOC stellt fertige Kombinationen-Symbol+Textfeld zur Verfügung:
+
+====== EINGABE-PRINZIP: +++<br/>+++ 
+
+Die Eingabe erfolgt 
+
+* ohne Einrücken
+* entstrechend dem Schema:
+
+ SYMBOLNAME   Doppelpunkt   Leerzeichen   Mein_Text
+
+Einzugeben ist also zB:
+
+ IMPORTANT: Verwende ich für WICHTIG_text!
+
+====== EINGABE_+_ERGEBNIS: +++<br/>+++ 
+
+ |SYMBOL
+ |           |NAME:
+ |           |     |<Mein_Text------------------------>
+ |           |     |
+
+NOTE: NOTE: Verwende ich für INFORMATION_text!
+
+IMPORTANT: IMPORTANT: Verwende ich für WICHTIG_text!
+
+WARNING: WARNING: Verwende ich für WARNUNG_text!
+
+CAUTION: CAUTION: Verwende ich für FRAGE_text! (Sieht doch aus wie  [big]#*?*# )
+
++++<br/>+++  +++<br/>+++ 
+
+[[SYMSTRUK]]
+
+==== SYMBOL_MIT_STRUKTURIERTEM_TEXTFELD:
+
+Das Textfeld lässt sich erweitern:
+
+* mehrzeilig 
+* als Liste
+** auch mit Mehrfach-Einrückung!
+
+====== EINGABE: +++<br/>+++ 
+
+ NOTE: INFORMATION:
+ +++<br/>+++  Das Textfeld lässt sich erweitern:
+ +++<br/>+++  &#8226; mehrzeilig 
+ +++<br/>+++  &#8226; als Liste
+ +++<br/>+++  &#8226; &#8226; auch mit Mehrfach-Einrückung!
+ +++<br/>+++  &#8226; &#8226; ...
+ +++<br/>+++  &#8226; ...
+
+====== ERGEBNIS: +++<br/><br/>+++ 
+
+NOTE: INFORMATION:
+ +++<br/>+++  Das Textfeld lässt sich erweitern:
+ +++<br/>+++  &#8226; mehrzeilig 
+ +++<br/>+++  &#8226; als Liste
+ +++<br/>+++  &#8226; &#8226; auch mit Mehrfach-Einrückung!
+ +++<br/>+++  &#8226; &#8226; ...
+ +++<br/>+++  &#8226; ...
+
+==== BILD:
+>>>->> <<BILD>> 
+
+==== VIDEO:
+
+>>>->> <<VIDEO>>
+
+==== AUDIO:
+
+>>>->> <<AUDIO>>
+
+=== LINK + NAVIGATION + INTERAKTION:
+
+Das HauptTHEMA lautet:
+
+* Wie muss ich mein Dokument für sinnvolle LINKs + NAVIGATION + INTERAKTION ausstatten & gestalten?
+
+Nachrangiges NebenTHEMA:
+
+* Darstellung der PapierVersion? &emsp;&emsp;&emsp; &emsp;&emsp;&emsp;  &#8226; in Arbeit!
+
+==== _mouseOVER_:
+
+mouseOVER ist extrem praktisch, wenn auf begrenztem Raum viel zu nennen ist (zB Aufzählung techn Ausstattung):
+
+* Abkürzung = immer sichtbar
+* LANGTEXT erscheint nur bei Überfahren mit der Maus!
+* SchriftFormate funktionieren NICHT!
+
+====== EINGABE: +++<br/>+++ 
+
+ +++<abbr title="MOUSEover">mo</abbr>+++,
++++<abbr title="LANGTEXT des Kürzels">*kürzel*</abbr>+++,
++++<abbr title=*"MIDI__SPICKZETTEL__asciiDOC__ERSTAUSGABE"*>mSa1</abbr>+++ 
+
+====== ERGEBNIS: +++<br/>+++
+
++++<abbr title="MOUSEover">mo</abbr>+++,
++++<abbr title="LANGTEXT des Kürzels">*kürzel*</abbr>+++,
++++<abbr title=*"MIDI__SPICKZETTEL__asciiDOC__ERSTAUSGABE"*>mSa1</abbr>+++ 
+
+==== INHALTS-VERZEICHNIS >> INHALT
+
+Vom INHALTS-VERZEICHNIS zum INHALT:
+
+* Setzen im Header: &emsp; >>>->>  <<toc_1>>
+** bewirkt automatisches INHALTS-VERZEICHNIS ...
+** ... zuzüglich automatisch: Verweis *und* Anker für jede genannte Überschrift.
+** BEISPIEL: vorliegender MIDI SPICKZETTEL asciiDOC.
+
+IMPORTANT: BEACHTE:
++++<br/>+++  &#8226; :toclevels: setzen:
++++<br/>+++  &#8226;  bestimmt den DetailGrad des INHALTS-VERZEICHNISses
+
+[[ANKER]]
+
+==== INHALT >> INHALT &#95; &#95; &#95; &#95; ANKER SETZEN:
+
+IMPORTANT: BEACHTE:
+ +++<br/>+++  &#8226; Anker eines Dokumentes haben unterschiedliche Namen! 
+ +++<br/>+++  &#8226; Anker sind in der Dokument-ZielForm unsichtbar.
+ +++<br/>+++  &#8226; Anker sind auch im laufenden Text positionierbar.
+ +++<br/>+++  &#8226; good use: Anker 2 Zeilen vor Überschrift setzen.
+
+====== EINGABE: +++<br/>+++ 
+
+Ich bin Text mit &#91;&#91;TESTANKER_1&#93;&#93;Anker ...  +++<br/>+++
+(... und zwar liegt "TESTANKER_1" *im Text integriert* direkt vor dem Wort "Anker" ...  +++<br/>+++
+... und bleibt im ErgebnisDokument *unsichtbar*).
+
+====== ERGEBNIS: +++<br/>+++
+
+Ich bin Text mit [[TESTANKER_1]]Anker ...  +++<br/>+++
+(... und zwar liegt "TESTANKER_1" *im Text integriert* direkt vor dem Wort "Anker" ...  +++<br/>+++
+... und bleibt im ErgebnisDokument *unsichtbar*).
+
+[[LINK]]
+
+==== INHALT >> INHALT &#95; &#95; &#95; &#95; LINK SETZEN:
+
+IMPORTANT: BEACHTE:
+ +++<br/>+++  &#8226; Links sind Verweise auf einen Anker.
+ +++<br/>+++  &#8226; Es können *mehrere Links* auf *einen Anker* weisen.
+ +++<br/>+++  &#8226; Links sind im laufenden Text positionierbar.
+ +++<br/>+++  &#8226; Links sind in der Dokument-ZielForm sichtbar mit blauem Farbumschlag.
+ +++<br/>+++  &#8226; Fehlt der blaue Farbumschlag, so ist der QuellCode fehlerhaft!
+ +++<br/>+++  &#8226; Links werden mit linker|rechter MausTaste ausgelöst.
+
+====== EINGABE: +++<br/>+++ 
+
+Ich bin Text mit &#60;&#60;TESTANKER_1&#62;&#62; ZielAngabe ...  +++<br/>+++
+(... und zwar liegt die ZielAngabe "TESTANKER_1" *im Text integriert* direkt vor dem Wort "ZielAngabe" ...  +++<br/>+++
+... und bleibt im ErgebnisDokument *sichtbar*).
+
+BEISPIEL_2 = Ziel_2:  &#60;&#60;ZIEL_2&#62;&#62; ...  +++<br/>+++
+... das im FussBereich des Documentes im ANHANG_???????? liegt.
+
+====== ERGEBNIS: +++<br/>+++
+
+Ich bin Text mit <<TESTANKER_1>> ZielAngabe ...  +++<br/>+++
+(... und zwar liegt die ZielAngabe "TESTANKER_1" *im Text integriert* direkt vor dem Wort "ZielAngabe" ...  +++<br/>+++
+... und bleibt im ErgebnisDokument *sichtbar*).
+
+BEISPIEL_2 = Ziel_2: <<ZIEL_2>> ...  +++<br/>+++
+... liegt im FussBereich des Documentes.
+
+==== FUSS-NOTE:
+
+Bisher konnte ich kein Kommando "NÄCHSTE SEITE!" ausfindig machen. FUSS-NOTE ist daher zurückgestellt.
+
+==== KAPITEL_NOTE:
+
+Vorläufig ausführen mittels: 
+
+* INHALT >> INHALT_LINK SETZEN: an aktueller Position: <<LINK>>
+* INHALT >> INHALT_ANKER SETZEN: am KapitelEnde & vor dem Text der KAPITEL_NOTE: <<ANKER>>
+
+==== END_NOTE:
+
+Vorläufig ausführen mittels: 
+
+* INHALT >> INHALT_LINK SETZEN: an aktueller Position: <<LINK>>
+* INHALT >> INHALT_ANKER SETZEN: am DokumentEnde & vor dem Text der END_NOTE: <<ANKER>> 
+
+[[BILD]]
+
+==== BILD EINFÜGEN: GENERELLES:
+
+TYPISCHES VORGEHEN:
+
+* alle Bilder an einer Stelle nahe an der Quellcode-DokumentDatei speichern
+* im Header des Dokumentes unter :imagesdir: diese Stelle als relativen Pfad angeben
+** (bezogen auf den SpeicherOrt der Quellcode-DokumentDatei)
+* Bild am Platz des Dokumentes nennen.
+
+Beispiel:
+ :imagesdir: ../asciiDOC_MIDIspick/BILDER/
+
+IMPORTANT: BEACHTE:
++++<br/>+++  &#8226; CHROMIUM.asciiDOCTOR interpretiert ":imagesdir:" fehlerhaft:
++++<br/>+++  &#8226; &#8226; DateiAngabe: 1 Stufe oberhalb beginnen!! +++<br/>+++ +++<br/>+++   
+WIR UNTERSCHEIDEN:
++++<br/>+++  &#8226; Bild als *SELBSTÄNDIGE BLOCKEINHEIT*
++++<br/>+++  &#8226; Bild als *EINFÜGUNG*
+
+==== BILD ALS SELBSTÄNDIGE BLOCKEINHEIT:
+
+Bild *am ZeilenAnfang* nennen gemäss Schema:
+
+ image::<BILDDATEI-NAME>.<BILDDATEI_EXTENSION>[<ERSATZTEXT>,<BREITE>,<HÖHE>]
+
+IMPORTANT: BEACHTE:
++++<br/>+++  &#8226; *DOPPELTER DOPPELPUNKT!*
++++<br/>+++  &#8226; Schema gilt mit ":imagesdir:"-Angabe +++<br/>+++ 
++++<br/>+++  &#8226; ohne ":imagesdir:"-Angabe Schema erweitern:
++++<br/>+++  &#8226;  &#8226; *<PFAD>*<BILDDATEI-NAME>. ...  +++<br/>+++  
++++<br/>+++  &#8226; das BildFormat " .???" wird nicht unterstützt!
+
+====== EINGABE-BEISPIEL: +++<br/>+++ 
+
+ image::robusPi_BASIS_ABMESSprinzip_02.jpg[robusPi_BASIS_ABMESSprinzip,400,400]
+
+====== ERGEBNIS: +++<br/>+++
+
+image::robusPi_BASIS_ABMESSprinzip_02.jpg[robusPi_BASIS_ABMESSprinzip_02.jpg,400,400]
+
+==== BILD EINFÜGUNG:
+
+Bilder lassen sich  feingranular an jeder ZeichenPosition einfügen in:
+
+* Fliesstext an beliebiger Position
+* Datencontainern 
+** zB Tabelle
+
+gemäss dem Schema:
+
+ image:<BILDDATEI-NAME>.<BILDDATEI_EXTENSION>[<ERSATZTEXT>,<BREITE>,<HÖHE>]
+
+IMPORTANT: BEACHTE:
++++<br/>+++  &#8226; *EINFACHER* DOPPELPUNKT!
++++<br/>+++  &#8226; Schema gilt mit ":imagesdir:"-Angabe +++<br/>+++ 
++++<br/>+++  &#8226; ohne ":imagesdir:"-Angabe Schema erweitern:
++++<br/>+++  &#8226;  &#8226; *<PFAD>*<BILDDATEI-NAME>. ... +++<br/>+++ 
++++<br/>+++  &#8226; bei Tabellen wird die BildGrösse automatisch angepasst ... 
++++<br/>+++  &#8226; &#8226; ... an die Grösse des TabellenFeldes 
++++<br/>+++  &#8226; &#8226; ... bleiben somit "<BREITE>,<HÖHE>" unberücksichtigt!  +++<br/>+++  
++++<br/>+++  &#8226; das BildFormat " .???" wird nicht unterstützt!
+
+====== EINGABE-BEISPIEL: +++<br/>+++ 
+
+ Ich bin eine TextZeile image:robusPi_BASIS_ABMESSprinzip_02.jpg[robusPi_BASIS_ABMESSprinzip,100,100] mit Bild!
+
+====== ERGEBNIS: +++<br/>+++
+
+Ich bin eine TextZeile image:robusPi_BASIS_ABMESSprinzip_02.jpg[robusPi_BASIS_ABMESSprinzip,100,100] mit Bild!
+
++++<br/>+++ 
+
+[[VIDEO]]
+
+===== VIDEO EINFÜGEN: &emsp;&emsp;&emsp; &emsp;&emsp;&emsp;  &#8226; in Arbeit! 
+
+[[AUDIO]]
+
+===== AUDIO EINFÜGEN: &emsp;&emsp;&emsp; &emsp;&emsp;&emsp;  &#8226; in Arbeit! 
+
+==== LINK AUF RECHNER & homeNET: &emsp;&emsp;&emsp; &emsp;&emsp;&emsp;  &#8226; in Arbeit! 
+
+====== EINGABE_PRINZIP: +++<br/>+++ 
+
+ file:///<MEDIUM/PFAD><datei_NAME>.<datei_EXTENSION>
+
+oder:
+
+ file:///<MEDIUM/PFAD><datei_NAME>.<datei_EXTENSION>#<ÜBERSCHRIFT>
+
+====== ERGEBNIS: +++<br/>+++ 
+
+!!!!!ERGEBNIS steht aus...Ian ansprechen!!!!!!!!!!!
+
+==== LINK INS INTERNET: &emsp;&emsp;&emsp; &emsp;&emsp;&emsp;  &#8226; in Arbeit!
+
+====== EINGABE_PRINZIP: +++<br/>+++ 
+
+ https://<INTERNET-ADRESSE>/
+
+oder:
+
+  https://<INTERNET-ADRESSE>/<PFAD>/<datei_NAME>.<datei_EXTENSION>
+
+oder:
+
+  https://<INTERNET-ADRESSE>/<PFAD>/<datei_NAME>.<datei_EXTENSION>#<ÜBERSCHRIFT>
+
+====== ERGEBNIS: +++<br/>+++ 
+
+!!!!!ERGEBNIS steht aus...Ian ansprechen!!!!!!!!!!!
+
++++<br/>+++
+
+
+== BEISPIELE: 
+
+=== EINFACHE_BEISPIELE: &emsp;&emsp;&emsp; &emsp;&emsp;&emsp;  &#8226; in Arbeit!
+
+==== KOPIEVORLAGE BEISPIEL_1:
+
+. kopieren ab Ende: EINGABE:
+* bis vor: ERGEBNIS:
+. einfügen in den Anhang des eigenen Dokuments
+. nacheditieren
+
+====== EINGABE:
+
+ ====== ERSTELLUNG DIESES DOKUMENTS:
+ .
+ Vorliegendes Dokument wurde erstellt mittels der leichtgewichtigen, hochleistenden Arbeitskette:
+ .  
+ * *asciiDOC*
+ ** das *Editierverfahren* für die Dokument-Rohausführung
+ *** kurze Beschreibung.de: https://de.wikipedia.org/wiki/AsciiDoc
+ *** ausführliches  Nachschlagewerk.de: ?????????????????????????????
+ *** offizielle Einführung.en: "AsciiDoc Writer’s Guide" https://asciidoctor.org/docs/asciidoc-writers-guide/
+ * *asciiDOCTOR*
+ ** der in üblichen Browsern verfügbare *Compiler* zur Generierung des Dokuments in Endform.
+ *** Anleitung.de: asciiDOCTOR im Browser aktivieren: ?????????????????????????????#asciiDOCTOR_AKTIVIEREN:
+ *** Anleitung.de: Chrome-Plugins-installieren: https://www.heise.de/tipps-tricks/Google-Chrome-Plugins-installieren-deinstallieren-und-anzeigen-4221689.html
+
+====== ERGEBNIS: +++<br/>+++
+
+====== ERSTELLUNG DIESES DOKUMENTS:
+
+Vorliegendes Dokument wurde erstellt mittels der leichtgewichtigen, hochleistenden Arbeitskette:  
+
+* *asciiDOC*
+** des *Editierverfahrens* für die Dokument-Rohausführung
+*** kurze Beschreibung.de: https://de.wikipedia.org/wiki/AsciiDoc
+*** ausführliches  Nachschlagewerk.de: ?????????????????????????????
+*** offizielle Einführung.en: "AsciiDoc Writer’s Guide" https://asciidoctor.org/docs/asciidoc-writers-guide/
+* *asciiDOCTOR*
+** dem in üblichen Browsern verfügbaren *Compiler* zur Generierung des Dokuments in Endform.
+*** Anleitung asciiDOCTOR im Browser aktivieren.de: ?????????????????????????????#asciiDOCTOR_AKTIVIEREN:
+*** Anleitung.de: Chrome-Plugins-installieren: https://www.heise.de/tipps-tricks/Google-Chrome-Plugins-installieren-deinstallieren-und-anzeigen-4221689.html
+
+=== KOMPLEXE_BEISPIELE: &emsp;&emsp;&emsp; &emsp;&emsp;&emsp;  &#8226; in Arbeit!
+
+=== BEISPIEL_SPEZIAL_DES_VERFASSERS: &emsp;&emsp;&emsp; &emsp;&emsp;&emsp;  &#8226; in Arbeit!
+
+[[MIDIbeisp]]
+
+=== MIDI_SPICKZETTEL_asciiDOC +++<br/>+++ &emsp; &#8226; als GENERALBEISPIEL  +++<br/>+++ &emsp; &#8226; als FUNDGRUBE:
+
+Alles -- wirklich alles -- was im SPICKZETTEL als Thema abgehandelt:
+
+* ist im SPICKZETTEL selbst bereits angewendet ...
+** ... und getestet ... 
+** ... und als SpickZettel-Quellcode direkt einsehbar!
+* zusätzlich waren im SPICKZETTEL weitere spezielle Trix erforderlich ...
+** ... ebenso einsehbahr!
+...
+====== QUELLCODE_EINSEHEN + +++<br/>+++ QUELLCODE_ALS_VORLAGE:
+
+WARNING: Beschrieben wird nachstehend *der einfachste Fall*:
+ +++<br/>+++  &#8226; mit dem Chrome-Browser ...
+ +++<br/>+++  &#8226; ... als AsciiDoc-QuellCode_Betrachter.
+
+WARNING: Beachte das Kapitel:
+ +++<br/>+++ &#8226; SCHRITT_FÜR_SCHRITT_STARTANLEITUNG: ...
+ +++<br/>+++ &#8226; &#8226; ... >>>_> DOKUMENT_ANZEIGEN:
+
+ABLAUF:
+
+. >>>_>> bereits erstellte QuellDatei im Format <DOKUMENTNAME>.asciidoc ...
+. >>>_>> ... als Anzeige
+. Browser startet automatisch mit der SPICKZETTEL-ErgebnisDarstellung
+. >>>_>> KommandoLeiste ...
+. >>>_>> Asciidoctor.js Preview ...
+. ... das startet automatisch die QuellCode-Darstellung!
+
+NOTE: BEACHTE:
+ diese QuellCode-Darstellung ist:
+ +++<br/>+++ &#8226; lesbar
+ +++<br/>+++ &#8226; kopierbar
+ +++<br/>+++ &#8226; *NICHT editierbar*!
+
++++<br/>+++ 
+
+
++++<br/>+++
+
+
+== SCHRITT_FÜR_SCHRITT_KURZANLEITUNG:
+
+=== PRINZIP:
+
+* Unter Benutzung von asciiDOC-Midi-SPICKER ...
+* ... wird mittels TextEditor das asciiDOC-QuellCode-Dokument erstellt ...
+* ... und arbeitsbegleitend im Browser das entsehende EndDokument "beobachtet".
+* Abschliessend Speicherung  & PapierDruck von QuellCode und EndDokument.
+
+
+WARNING: UNBEDINGT ERFORDERLICH:
+ +++<br/>+++  &#8226; Web-Zugang
+ +++<br/>+++  &#8226; Browser in aktueller Version:
+ +++<br/>+++  &#8226; &#8226; Chrome
+ +++<br/>+++  &#8226; &#8226; Chromium
+ +++<br/>+++  &#8226; &#8226; Firefox
+ +++<br/>+++ 
+ +++<br/>+++  &#8226; &#8226; andere Browser sind ungeeignet!
+
+NOTE: BEACHTE:
+ +++<br/>+++  &#8226; Beim beschriebenen Verfahren halten wir die Daten auf dem eigenen Rechner!
+ +++<br/>+++  &#8226; *ES GEHEN KEINERLEI DATEN INS INTERNET!*
+
++++<br/>+++ 
+
+=== EINLESEN IN DIESE_KURZANLEITUNG:
+
+Sie haben ja bereits begonnen. Einfach weiterlesen!
+
++++<br/>+++ 
+
+=== EIGENE SITUATION HINTERFRAGEN:
+
+Bevor wir einsteigen, sollten wir hinterfragen:
+
+* Will ich mein bisheriges Dokument-Erstellungs-Verfahren - zumindest testweise - hinter mir lassen?
+* Wenns nicht klappt, sind dann meine mit asciiDOC erstellten EditierErgebnisse Schrott?
+** ... NEIN, sie sind über COPY&PASTE aufwandarm ins bisherige System überführbar ...
+** ... und ich um eine Erfahrung bereichert.
+* Wie *geeignet* sind: asciiDOC + asciiDOCTOR?:
+** Antwort könnte geben: >>>->>
+*** <<asciiKURZ>>
+* Wie *zuverlässig* wird der SPICKZETTEL mich unterstützen?:
+** geeignet? &emsp; vollständig? &emsp; fehlerhaft? &emsp; erprobt?
+** Zu diesen Fragen geben Auskünfte: >>>->>
+*** <<ANH_SPICK>>
+*** <<STATUS-ÜBERSICHT>> .neueste-Version
+
+=== AUSSTATTUNG KLÄREN:
+
+Vorhanden:
+
+* PC?
+** TextEditor?
+** Web-Zugang?
+** Browser in aktueller Version?...
+*** Chrome | Chromium | Firefox 
+* asciiDOC-Midi-SPICK in Ausführung?...
+** PDF-Datei auf dem Bildschirm | PDF-PapierDruck
+
+=== asciiDOCTOR_AKTIVIEREN:
+
+* Browser starten
+* Die Extension für Asciidoc im Browser aktivieren,
++++<br/>+++  nachfolgend erklärt am Beispiel: CHROMIUM:
+. starte CHROMIUM
+. >>>_>> Einstellungen (= Costomize and control Chromium)
+. >>>_>> More Tools
+. >>>_>> Extensions
+. >>>_>> Asciidoctor.js Live Preview
+. >>>_>> Schalterstellung:EIN
+. in der HeaderZeile des Browsers erscheint das ASCIIdoc-Symbol:
+*** Anklicken des Symbols schaltet die ASCIIdoc-Funktion ein & aus!
+* die ArbeitsSchritte gelten sinngemäss für CHROME & Firefox
+
+=== UNTERSTÜZUNG DURCH asciiDOC-Midi-SPICK:
+
+Typischerweise kann asciiDOC-Midi-SPICK in 4 Varianten genutzt werden:
+
+* asciiDOC-Midi-SPICK in Endform als PapierDruck: >>>->> <<midiP>>
+* asciiDOC-Midi-SPICK in Endform als PDF-Datei
+* asciiDOC-Midi-SPICK in Endform als Web-Seite: >>>->> <<muss Ian angeben!!!!!!!!!!!!!!!!!>> 
+* asciiDOC-Midi-SPICK als Quell-Datei. Details: >>>->> <<midiQ>>
+
+[[midiP]]
+
+=== "SPICKEN" VOM PAPIER:
+
+. >>> "Inhaltsverzeichnis" ...
+. ... >>>_>> <gewünschtes Thema> ...
+. ... Kapitel-Nummer merken:
+. unter diesem Kapitel findet sich das Ergebnis!
+
+[[midiQ]]
+
+===  "SPICKEN" IM BROWSER:
+
+. >>>_>> bereits gespeicherte QuellDatei asciiDOC-Midi-SPICK.asciidoc ...
+* DoppelKlick.li
+. >>>_>> ... als Anzeige
+* DoppelKlick.li
+* Browser startet automatisch mit dem asciiDOC-Midi-SPICK-EndDokument.
+. >>> "Inhaltsverzeichnis" ...
+. ... >>>_>> <gewünschtes Thema>:
+* Browser springt zum Ergebnis!
+. >>>->> BrowserPfeil "ZURÜCK"
+* EinfachKlick.li
+* Browser springt zum >>> "Inhaltsverzeichnis"
+. nächstes Thema
+
+=== DOKUMENT_ERSTELLEN:
+
+. Gem. Kapitel: +++<br/>+++ >>>_> <<DOKerstell>> mit beliebigem TextEditor:
+* QuellDatei-Code eingeben!
+. Abspeichern als QuellDatei im Format: &emsp; <DOKUMENTNAME>.*asciidoc* 
+
+Hinweise auch in:  
++++<br/>+++ <<MIDIbeisp>>
+
+=== DOKUMENT_ANZEIGEN:
+
+Wir wählen *den einfachste Fall* mit dem Browser als AsciiDoc-Compiler.
+
+WARNING: VORBEDINGUNG:
+ +++<br/>+++  &#8226; Web-Zugang
+ +++<br/>+++  &#8226; Browser in aktueller Version:
+ +++<br/>+++  &#8226; &#8226; Chrome
+ +++<br/>+++  &#8226; &#8226; Chromium
+ +++<br/>+++  &#8226; &#8226; Firefox
+ +++<br/>+++ 
+ +++<br/>+++  &#8226; &#8226; andere Browser sind ungeeignet!
+
+* >>>_>> bereits gespeicherte QuellDatei  <DOKUMENTNAME>.asciidoc ...
+* DoppelKlick.li
+* >>>_>> ... als Anzeige
+* DoppelKlick.li
+* Browser startet automatisch mit der  <DOKUMENTNAME>.*Ergebnis-Darstellung*.
+
++++<br/>+++ 
+
+=== DOKUMENT_DRUCKEN|SPEICHERN:
+
+Aus der DOKUMENT_ANZEIGE heraus nutzen wir die Funktionen des Browsers. 
+
+* Browser-Direktdruck
+* Export|Speicherung als starres PDF-Dokument
+* PDF-PapierDruck.
+
++++<br/>+++ +++<br/>+++ +++<br/>+++ +++<br/>+++ +++<br/>+++ 
+
+* *ENDE DES AUSKUNFTBEREICHES*
+
+'''
+
+= &#95; &#95; &#95; &#95; &#95; &#95; &#95; &#95; &#95; &#95; &#95; &#95; &#95; &#95; &#95; &#95; &#95; &#95; &#95; &#95; &#95;
+
+* *AB HIER: ERGÄNZENDE INFORMATIONEN & HILFSDATEN*
+
++++<br/>+++ 
+
+'''
+
+= ANHANG_A: +++<br/>+++ &emsp; ZUR_BEGRÜSSUNG:
+
+Hej!  Hallo!  Grüetzi!  Grüss_Gott!  Servus!  Guten_Tag!  ...
+
+Der Verfasser war immer schon auf der Suche nach einem arbeitsparendem Dokument-Editor, ...
+
+CAUTION: ... *der sein sollte:*
+ +++<br/>+++  &#8226; universell
+ +++<br/>+++  &#8226; übersichtlich
+ +++<br/>+++  &#8226; fehlerarm
+ +++<br/>+++  &#8226; portabel über sein persönliches Equipment (LINUX, RASPi; ANDROID, ...) 
+ +++<br/>+++  &#8226; optisch ansprechend in seinem Dokument-Endergebnis
+ +++<br/>+++  &#8226; nicht überladen
+ +++<br/>+++  &#8226; leicht erlernbar|begreifbar
+ +++<br/>+++  &#8226; kompakt im TransferFormat
+ +++<br/>+++  &#8226; ...
+
+asciiDOC & asciiDOCTOR decken das inzwischen ab ... +++<br/>+++ und das so gut, dass man nach den ersten TestSeiten vom Produkt nicht mehr lassen kann.
+
+Doch eine *sinnvolle Anleitung in Deutsch* war nicht zu finden, ... 
++++<br/>+++ ... daher habe ich meine eigene kleine Sammlung aufgebohrt zum: 
++++<br/>+++  &#8226; MIDI____SPICKZETTEL____asciiDOC 
++++<br/>+++  &#8226; ERSTAUSGABE 
++++<br/>+++  &#8226; erstellt auf asciiDOC & asciiDOCTOR. 
+
+Ich hoffe, er - der SPICKZETTEL - ist hilfreich!
+
++++<br/>+++ 
+
+'''
+
+[[asciiKURZ]]
+
+= ANHANG_B: +++<br/>+++ &emsp; asciiDOC_&_asciiDOCTOR:
+
+Wer *Details* wissen will:
+
+* de.kurze Beschreibung: "AsciiDoc": +++<br/>+++ https://de.wikipedia.org/wiki/AsciiDoc
+* de.kurze Übersicht: "AsciiDoc-Features für Pragmatisches": https://jaxenter.de/asciidoc-features-66027
+* de.kurze Beispiele: "So sieht Asciidoc aus": +++<br/>+++ https://docplayer.org/4357093-Gesunde-dokumentation-mit-asciidoctor.html
+* en.offizielle KurzAnleitung: "Asciidoctor Documentation": +++<br/>+++ https://asciidoctor.org/docs/
+* en.offizielle Einführung: "AsciiDoc Writer’s Guide" +++<br/>+++ https://asciidoctor.org/docs/asciidoc-writers-guide/
+* en.offizielles User Manual: "Asciidoctor User Manual" +++<br/>+++ https://asciidoctor.org/docs/user-manual/
+* en.https://asciidoctor.org/docs/user-manual/#what-is-asciidoctor
+
+Vielleicht genügen nachfolgende *Kurz-Charakterisierungen*?:
+
+==== asciiDOC:
+
+*asciiDOC* ist die Definition einer vereinfachten *Auszeichnungssprache zur schellen + fehlerarmen* Erstellung von Dokumenten:
+
+. maschinenlesbar
+. vom Menschen ebenso direkt lesbar
+. als Norm fürs Web vorgesehen
+. Format-Konvertierungen zwischen Dokumentations-Systemen universell unterstützend. 
+
+NOTE: *asciiDOC:*
+ +++<br/>+++  &#8226; ist auf den *Inhalt* eines Dokumentes ausgerichtet
+ +++<br/>+++  &#8226; die Gestaltung eines Dokumentes ist eher zweitrangig.
+
+Andere beschreiben das so:
+
+AsciiDoc ist ein Textdokumentformat zum Schreiben von Notizen, Dokumentationen, Artikeln, Büchern, E-Books, Diashows, Webseiten, Manpages und Blogs. AsciiDoc-Dateien können über die Asciidoctor-Toolchain in viele Formate übersetzt werden, einschließlich HTML, PDF, EPUB, DocBook und Manpage. Es kann ein beliebiger Texteditor verwendet werden. Einige Websites wie Github rendern AsciiDoc-Dateien direkt in HTML.
+
+==== asciiDOCTOR:
+
+*asciiDOCTOR* ist AsciiDoc's *Compiler* für die Dokument-Ausgabe.
+
+NOTE: *asciiDOCTOR*: kann aus einer asciiDOC-Datei *ohne Veränderung* erzeugen:
+ +++<br/>+++  &#8226; die übersichtliche *Druckvorlage*
+ +++<br/>+++  &#8226; eine dazu identische grafische *Rechner-Oberfläche mit interaktiver Bedienung*:
+ +++<br/>+++  &#8226; &#8226; beides zwecks drastischer Arbeitsersparnis mittels Automatismen.
+
+WARNING: *asciiDOCTOR*:  
+ +++<br/>+++  &#8226; existiert abhängig von der zugrunde liegenden Programmiersprache in diversen Ausprägungen: 
+ +++<br/>+++  &#8226; *identischer Inhalt* der EndDokumente!
+ +++<br/>+++  &#8226; zueinander in Details *abweichendes Dokument-Aussehen* dieser Dokumente!
+
+==== asciiDOC & asciiDOCTOR:
+
+asciiDOC & asciiDOCTOR sind ein geniales ToolSystem zum Verfassen umfangreicher, universeller Dokumente: 
+
+* verständliche, schlichte TastaturEingabe
+* robuste Übernahme bereits vorhandener DokumentTeile
+* lesbare, verständliche, speicherplatzschonende QuellDatei
+* übersichtlich 
+* aufwandreduzierende Automatismen
+* aus dem Stand erlernbar.
+
+asciiDOC & asciiDOCTOR haben die wunderbare Eigenschaft, die darstellbaren UTF8-Zeichen zu unterstützen. Dh. *asciiDOC & asciiDOCTOR steht die gesammte internationale Welt offen*... +++<br/>+++
+... und das ohne irgendeine Verrenkung.
+
+Die simple Eingabe mittels ASCII-Zeichensatz lässt selbst das Handy eintreten in die Welt von asciiDOC & asciiDOCTOR
+
+* AlphabethZeichen der Sprachen der Welt
+* Symbole
+* Emojs... das Handy kennt das ja schon lange.
+
++++<br/>+++ 
+
+'''
+
+[[ANH_SPICK]]
+
+= ANHANG_C: +++<br/>+++ &emsp; MIDI____SPICKZETTEL____asciiDOC__________ERSTAUSGABE:
+
+Die MIDI____SPICKZETTEL____asciiDOC ... +++<br/>+++ ... ERSTAUSGABE ist eine *knapp gehaltene Auswahl* an asciiDOC-Regeln:
+
+* *ohne die sich ein sinnvolles Dokument nicht erstellen liesse!*
+* ... ist nicht mehr!
+* ... ist aber auch nicht weniger!
+
+Eine nächste AUSGABE = *MINI*-AUSWAHL für Einarbeitung ist bereits im Entstehen.
+
++++<br/>+++ 
+
+[[STATUS-ÜBERSICHT]]
+
+==== SPICKZETTEL-STATUS-ÜBERSICHT:
+
+|===
+|VERSION:|ARBEITS_TITEL: |ERFÜLLT: |ERFÜLLT_NICHT:|ANMERKUNG:
+
+|V00.24--2019-12-24
+|asciiDOC_MIDIspick = AUSFÜHRUNG: WEB+BROWSER
+|&#8226; LESEversion +++<br/>+++ 
+&#8226; DRUCKversion +++<br/>+++ 
+&#8226; TITELnavigation +++<br/>+++ 
+&#8226; MUSTERvorlage +++<br/>+++   
+&#8226; TABELLE +++<br/>+++  
+&#8226; DOKUMENTnavigat. +++<br/>+++ 
+&#8226; STEUzeichen zu 60% +++<br/>+++  
+&#8226; UTF8-Zeichenauswahl zu 60% +++<br/>+++   
+&#8226; EIGENEtests zu 95% +++<br/>+++  
+&#8226; NACHoptimierung-Teil1+2+3 +++<br/>+++ 
+&#8226; WEBintegration +++<br/>+++
+|&#8226; ANWENDERtests +++<br/>+++
+&#8226; %-Reste +++<br/>+++ 
+&#8226; NACHoptim-Rest
+|an Ian: BITTE STELLS INS WEB!!!!!!!
+
+|V00.17--2019-12-08
+|asciiDOC_MIDIspick = BROWSERAUSFÜHRUNG
+|&#8226; LESEversion +++<br/>+++ 
+&#8226; DRUCKversion +++<br/>+++ 
+&#8226; TITELnavigation +++<br/>+++ 
+&#8226; MUSTERvorlage +++<br/>+++  
+&#8226; TABELLE.roh +++<br/>+++ 
+&#8226; DOKUMENTnavigat. +++<br/>+++ 
+&#8226; STEUzeichen zu 60% +++<br/>+++  
+&#8226; UTF8-Zeichenauswahl zu 60% +++<br/>+++   
+&#8226; EIGENEtests zu 90% +++<br/>+++  
+&#8226; NACHoptimierung-Teil1+2 +++<br/>+++ 
+|&#8226; WEBintegration +++<br/>+++  
+&#8226; Finish: TABELLE +++<br/>+++ 
+&#8226; ANWENDERtests +++<br/>+++
+&#8226; %-Reste +++<br/>+++ 
+&#8226; NACHoptim-Rest
+|ES WIRD ZEIT INS WEB ZU GEHEN!!!
+
+|V00.15--2019-11-22
+|asciiDOC_MIDIspick
+|&#8226; LESEversion +++<br/>+++ 
+&#8226; DRUCKversion +++<br/>+++ 
+&#8226; TITELnavigation +++<br/>+++ 
+&#8226; MUSTERvorlage +++<br/>+++ 
+&#8226; STEUzeichen zu 60% +++<br/>+++  
+&#8226; UTF8-Zeichenauswahl zu 50% +++<br/>+++   
+&#8226; EIGENEtests zu 90% +++<br/>+++  
+&#8226; NACHoptimierung-Teil1 +++<br/>+++  
+|&#8226; DOKUMENTnavigat. +++<br/>+++  
+&#8226; Finish: TABELLE +++<br/>+++ 
+&#8226; WEBintegration +++<br/>+++ 
+&#8226; ANWENDERtests +++<br/>+++
+&#8226; %-Reste +++<br/>+++ 
+&#8226; NACHoptim-Rest
+|
+
+|V00.11--2019-11-13
+|MIDI-ERSTAUSGABE
+|&#8226; LESEversion +++<br/>+++ 
+&#8226; DRUCKversion +++<br/>+++ 
+&#8226; TITELnavigation +++<br/>+++ 
+&#8226; MUSTERvorlage +++<br/>+++ 
+&#8226; STEUzeichen zu 40% +++<br/>+++  
+&#8226; UTF8-Zeichenauswahl zu 10% +++<br/>+++  
+&#8226; EIGENEtests zu 90% +++<br/>+++  
+|&#8226; DOKUMENTnavigat. +++<br/>+++ 
+&#8226; WEBintegration +++<br/>+++ 
+&#8226; ANWENDERtests +++<br/>+++
+&#8226; %-Reste +++<br/>+++ 
+&#8226; NACHoptim-Rest
+|
+|===
+
+==== SYMBOLIK_DES_SPICKZETTELS: &emsp;&emsp;&emsp;
+
+Eigentlich für ganz anderes geschaffen, werd ich mal meine SYMBOLIK-Sammlung erweitern & hier im SPICKZETTEL anwenden:
+
+NOTE: Unter SYMBOLIK fasse ich *ALLES* zusammen:
+ +++<br/>+++  &#8226; Begriffe
+ +++<br/>+++  &#8226; Abkürzungen, ...
+ +++<br/>+++  &#8226; &#8226; ... von mir Kürzel genannt
+ +++<br/>+++  &#8226; Symbole
+ +++<br/>+++  &#8226; CodeKürzel 
+ +++<br/>+++  &#8226; Steuerzeichen
+ +++<br/>+++  &#8226; ...
+
+Seit Jahren hat sich diese SYMBOLIK-Sammlung für mich bewährt!
+
+===== GENERELL:   &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  &#8226; unvollständig!
+
++++<br/>+++
+
+ >>>     SIEHE BEI:
+
+
+|===
+|*SYMBOL:* |*BEDEUTUNG:* |*EINGABE:* |*ANMERKUNG:* +++<br/>+++ +++<br/>+++ +++<br/>+++
+
+|&#124;
+|oder
+|&#124;
+|
+
+|===
+
+
++++<br/>+++ 
+
+===== NAVIGATION+HANDLING:   &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  &#8226; vorgesehen!
+
++++<br/>+++
+
+ >>>     SIEHE BEI:
+
+
+|===
+|*SYMBOL:* |*BEDEUTUNG:* |*EINGABE:* |*ANMERKUNG:* +++<br/>+++ +++<br/>+++ +++<br/>+++
+|===
+
++++<br/>+++ 
+
++++<br/>+++ 
+
+===== STATUS+HANDLING:
+
++++<br/>+++
+
+|===
+|*SYMBOL:* |*BEDEUTUNG:* |*EINGABE:* |*ANMERKUNG:* +++<br/>+++ +++<br/>+++ +++<br/>+++
+|===
+
+|===
+|_!!! |BEACHTE! |_!!! |
+|&#95;!!!&#95;! |FÜHRE_AUS! |&#95;!!!&#95;! 
+|===
+
+ _!!!_!                      FÜHRE_AUS!                 _!!!_! 
+
++++<br/>+++ 
+
+|===
+|_??? |UNKLAR! WIESO? | _??? |
+|&#95;???&#95;? |WIESO? ... UNKLAR! ... |&#95;???&#95;? 
+|===
+
+ _???_?                      KLÄRE_AB!                 _???_? 
+
++++<br/>+++ 
+
+|===
+|_*** |WICHTIG! | _*** |
+|===
+
+ _***_*                     WICHTIG_VOR_ANDEREM!!!     _***_*
+
+ _***_3                     WICHTIG_MIT PRIO = 3       _***_3
+                              • 9 = WICHTIGSTES        
+                                    von ALLEN!!!!
+                              • 0 = unwichtig   
+
+ _⌗⌗⌗                       überflüssig =              _⌗⌗⌗                   
+                              • ENTSORGEN!
+                              • PAPIERKORB!       
+                              • LÖSCHEN!   
+
++++<br/>+++ 
+
+|===
+|_⌁⌁⌁ |DRÄNGEND! | _⌁⌁⌁ |
+|===
+
+ _⌁⌁⌁_⌁                     DRINGEND_VOR_ANDEREM!!!     _⌁⌁⌁_⌁
+
+ _⌁⌁⌁_5                     DRINGEND_MIT PRIO = 5       _⌁⌁⌁_5
+                              • 9 = DRINGENDSTES        
+                                    von ALLEN!!!!
+                              • 0 = hat Zeit!   
+
+ _⌁⌁⌁_⌗                     NIE!!                       _⌁⌁⌁_⌗                      = Spanien: "MANIANA!"
+
++++<br/>+++ +++<br/>+++ 
+
+ !                    "Aus Zeitmangel" wurde noch nicht aufgenommen:    ok!
+                                                                        gut!
+                                                                        schlecht!    
+                                                                        fehlerhaft!
+                                                                        freigegeben!
+                                                                        verteilt!
+                                                                        gefährlich!
+                                                                        sichtbar!
+
+
++++<br/>+++ 
+
+'''
+
+= ANHANG_D: +++<br/>+++ &emsp; NAVIGATION_TESTS:
+
+BEISPIEL_2 = Ziel_2: [[ZIEL_2]] ...  +++<br/>+++
+... das im FussBereich des Documentes liegt.
+
+'''
+
+[[ÜBERSCHRIFTEN_GLIEDERUNG:]]
+
+= ANHANG_E: +++<br/>+++ &emsp; ÜBERSCHRIFTEN_GLIEDERUNG:
+
+==== EINGABE:
+
+ = Document Title = Level 0
+
+ == Section = Level 1
+
+ === Section = Level 2
+
+ ==== Section = Level 3
+
+ ===== Section = Level 4
+
+ ====== Section = Level 5
+
+ = Section = Level 0
+
++++<br/>+++ +++<br/>+++ 
+
+==== ERGEBNIS:
+
+= Document Title = Level 0
+
+== Section = Level 1
+
+=== Section = Level 2
+
+==== Section = Level 3
+
+===== Section = Level 4
+
+====== Section = Level 5
+
+= Section = Level 0
+
++++<br/>+++ 
+
+'''
+
+= ANHANG_F: +++<br/>+++ &emsp;  NACHWORT:
+
+Der Verfasser hatte die Arbeit zu diesem Spickzettel unterschätzt,+++<br/>+++
+denn oberflächlich sollte das Ergebnis ja nicht sein (sowas gibts bereits im Web!)...+++<br/>+++
+...und so wuchs sich insbesonders das Suchen und Testen von Funktionalitäten aus im asciiDOC-Grenzbereich (ASCII, UFT8, HTML, ...). +++<br/>+++ Da es benötigt wird, geht MIDI_SPICKZETTEL_asciiDOC noch unfertig vorab ins Web. Fertigstellung ist zugesichert.
+
+Wie geht es weiter?
+
+* *Midi-SPICK* bleibt im Themen-Umfang weiterhin unverändert. Die Einzel-Kapitel jedoch werden vervollständigt und optimiert.
+* *mini-SPICK* wird zusammengestellt mittels Auszug aus Midi-SPICK als *autonome* Workshop-*KurzEinführung in asciiDOC*.
+* *MAXI-SPICK* nimmt all das auf, was über Midi-SPICK thematisch hinausgeht (Komplexes, Kombination mit ProgrammCode, ...).
+Midi + MAXI werden über Links eng miteiander verzahnt sein.
+
+Und nun viel Spass & Erfolg mit Midi-SPICK-asciiDOC!
+
+Herzlich, 
+
+*[big]#M&#10041;X#* [small]#&#95;der&#95;mit&#95;dem&#95;klex&#95;#
+
+
++++<br/>+++ +++<br/>+++ +++<br/>+++ +++<br/>+++ +++<br/>+++ 
+
+* *ENDE DER ERGÄNZENDEN INFORMATIONEN & HILFSDATEN*
+* *ENDE DES SPICKZETTEL-INHALTES*
+
+'''
+
+= &#95; &#95; &#95; &#95; &#95; &#95; &#95; &#95; &#95; &#95; &#95; &#95; &#95; &#95; &#95; &#95; &#95; &#95; &#95; &#95; &#95;
+
+* *AB HIER: ARBEITSDATEN DES VERFASSERS*
+
++++<br/>+++ 
+
+'''
+= ANHANG_Z: +++<br/>+++ &emsp; ARBEITSNOTIZEN+LOP:
+
+WARNING: *NACHBESSERN:* +++<br/>+++ 
+• +++<br/>+++ 
+•• +++<br/>+++ 
+
+WARNING: *LOP:* +++<br/>+++ 
+• ANKER.allg:  +++<br/>+++ 
+•• wie ANKER-ZielAngabe UNSICHTBAR??? +++<br/>+++  +++<br/>+++ 
+• ANKER.Inhaltsverzeichnis:  +++<br/>+++ 
+•• wie ANKER-ZielAngabe "[[⯅]]" VOR/AM BEGINN des Inhaltsverzeichnisses setzen??? +++<br/>+++  +++<br/>+++ 
+• internVERWEIS:  +++<br/>+++ 
+•• wie AUTOMATISIERT im Editor internVERWEIS vor jede Überschrift setzen??? +++<br/>+++
+••• SUCHMUSTER = ok:^== +++<br/>+++ 
+••• SETZMUSTER = NOTok: "<<⯅>> +++<br/>+++ +++<br/>+++==" +++<br/>+++
+•••• "... +++<br/>+++ +++<br/> ..." macht Probleme!!!!!  +++<br/>+++  +++<br/>+++
+• internANKER+VERWEIS:  +++<br/>+++ 
+•• ist "<<⯅>>" in obigem Beispiel schlechter geeignet als "<<㚎>>"?????????????
+• mouseOVER: +++<br/>+++ 
+•• für Text, NICHT BILD!!! +++<br/>+++  +++<br/>+++ 
+• seitenUMBRUCH  +++<br/>+++ 
+•• für Drucker, NICHT BILDSCHIRM!!! +++<br/>+++ +++<br/>+++ 
+• ZURÜCK!_1  +++<br/>+++ 
+•• wie mit minimalem Aufwand??? +++<br/>+++ 
+••• wäre der autoAnker an Überschriften als Trigger eines ZURÜCKskripts nutzbar??? +++<br/>+++ +++<br/>+++ 
+• ZURÜCK!_2 (ALTERNATIVE) +++<br/>+++ 
+•• Steuerzeichen: GEHE ZU DOKUMENT-ANFANG! ??? +++<br/>+++ 
+
+
+______________________________________________________________
+
+* *FEHLEND|UNKLAR|LOP|nichtGETESTET|OPTIMUMoffen|___:*
+
++++<br/>+++
+
+- [*] UTF8_Einbettung
+- [ ] HTML_Einbettung
+- [ ] Text verstecken (= auskommentieren | ZusatzINFO für Entwurf | etc)
+- [ ] Vergrössern | verkleinern:
+** EINZELzeichen
+** zeichenFOLGE
+** MEHRZEILENbereich
+- [*] sprungADRESSE innerhalb Dokument
+- [ ] sprungADRESSE|verweis an EXTERN
+- [ ] nichtPROPORTIONAL-schrift:
+** MEHRZEILENbereich
+** GESAMMTdokument
+- [*] mousOVER
+- [*] AUSWAHL einfacher TABELLENtypen
+- [*] Bild einfügen in TEXT
+- [*] Bild einfügen in TABELLE
+- [ ] wieso in Überschrift Zeilenumbruch nach:  |...: ,aber nicht bei NormalText?
+- [*] ZeilenUmbruch
+- [*] LeerZeile(n)
+- [*] LeerZeichen
+- [*] TOC
+- [ ] HEADER.dokumentDEF
+- [ ] 
+- [ ] 
+- [ ] 
+- [ ] 
+- [ ] 
+- [ ] 
+- [ ] 
+
+______________________________________________________________
+
++++<br/>+++ 
+
+
+'''
+
+= ANHANG_Y: +++<br/>+++ &emsp; THEMEN_SAMMLUNG FÜR MAXI_SPICKZETTEL:
+
+______________________________________________________________
+
+* *FEHLEND:*
+
+- [ ] AUSWAHL komplexer TABELLENtypen
+** L U O -kombiFELDer
+- [ ] BILD im Lauftext
+
+
+______________________________________________________________
+
+* *KOMPLEX-TABELLE:*
+
+ll duplicated across three columns
+|===
+
+|Cell in column 1, row 1 |Cell in column 2, row 1 |Cell in column 3, row 1
+
+3*|Same cell content in columns 1, 2, and 3
+
+|Cell in column 1, row 3
+|Cell in column 2, row 3
+|Cell in column 3, row 3
+
+|===
+Result: Rendered table where cell was duplicated across three columns
+Cell in column 1, row 1
+
+Cell in column 2, row 1
+
+Cell in column 3, row 1
+
+Same cell content in columns 1, 2, and 3
+
+Same cell content in columns 1, 2, and 3
+
+Same cell content in columns 1, 2, and 3
+
+Cell in column 1, row 3
+
+Cell in column 2, row 3
+
+Cell in column 3, row 3
+
+To have a cell span multiple, consecutive columns, prefix the | with the span factor and the + operator.
+
+Cell spanning three columns
+|===
+
+|Cell in column 1, row 1 |Cell in column 2, row 1 |Cell in column 3, row 1
+
+3+|Content in a single cell that spans columns 1, 2, and 3
+
+|Cell in column 1, row 3
+|Cell in column 2, row 3
+|Cell in column 3, row 3
+
+|===
+Result: Rendered table where cell spans three columns
+Cell in column 1, row 1
+
+Cell in column 2, row 1
+
+Cell in column 3, row 1
+
+Content in a single cell that spans columns 1, 2, and 3
+
+Cell in column 1, row 3
+
+Cell in column 2, row 3
+
+Cell in column 3, row 3
+
+If you want to have a cell span multiple, consecutive rows, prefix the span factor with a dot (.).
+
+Cell spanning two rows
+|===
+
+|Cell in column 1, row 1 |Cell in column 2, row 1 |Cell in column 3, row 1
+
+.2+|Content in a single cell that spans rows 2 and 3
+|Cell in column 2, row 2
+|Cell in column 3, row 2
+
+|Cell in column 2, row 3
+|Cell in column 3, row 3
+
+|===
+Result: Rendered table where a cell spans two rows
+Cell in column 1, row 1
+
+Cell in column 2, row 1
+
+Cell in column 3, row 1
+
+Content in a single cell that spans rows 2 and 3
+
+Cell in column 2, row 2
+
+Cell in column 3, row 2
+
+Cell in column 2, row 3
+
+Cell in column 3, row 3
+
+Of course you can combine spanning over columns and rows. The number before the dot (.) is the number of columns to span and the number after the dot (.) is the number of rows to span.
+
+Cell spanning columns and rows
+|===
+
+|Column 1, row 1 |Column 2, row 1 |Column 3, row 1 |Column 4, row 1
+
+|Column 1, row 2
+2.3+|Content in a single cell that spans over rows and columns
+|Column 4, row 2
+
+|Column 1, row 3
+|Column 4, row 3
+
+|Column 1, row 4
+|Column 4, row 4
+|===
+Result: Rendered table where a cell spans over columns and rows
+Column 1, row 1
+
+Column 2, row 1
+
+Column 3, row 1
+
+Column 4, row 1
+
+Column 1, row 2
+
+Content in a single cell that spans over rows and columns
+
+Column 4, row 2
+
+Column 1, row 3
+
+Column 4, row 3
+
+Column 1, row 4
+
+Column 4, row 4
+
+The alignment component for cells works the same as the column specifier alignment component.
+
+
+
+
+
+______________________________________________________________
+
+* *NACH_OBEN_PFEILE:*
+
+<<㚎>>
+
+<<&#13966;>>
+
+&#94;
+
+<<⯅>>
+
+
+U+1402
+ᐂ
+Kanadisches Silbenzeichen Aai
+
+U+21C8
+⇈
+Gepaarte Pfeile nach oben
+HTML dezimal: &#8648;
+HTML hex: &#x21C8;
+
+U+21EE
+⇮
+Dicker weißer Pfeil nach oben
+HTML dezimal: &#8686;
+HTML hex: &#x21EE;
+
+U+22BC
+⊼
+Nand-verknüpft mit
+HTML dezimal: &#8892;
+HTML hex: &#x22BC;
+
+U+234D
+⍍
+APL-Funktionssymbol Quadrat mit Delta
+HTML dezimal: &#9037;
+HTML hex: &#x234D;
+
+U+2397
+⎗
+Vorherige Seite
+HTML dezimal: &#9111;
+HTML hex: &#x2397;
+
+U+23BD
+⎽
+Horizontale Rasterlinie-9
+HTML dezimal: &#9149;
+HTML hex: &#x23BD;
+
+U+23EB
+⏫
+BLACK UP-POINTING DOUBLE TRIANGLE
+HTML dezimal: &#9195;
+HTML hex: &#x23EB;
+
+U+27F0
+⟰
+Vierfacher Pfeil nach oben
+HTML dezimal: &#10224;
+HTML hex: &#x27F0;
+
+U+290A
+⤊
+Sehr dicker Pfeil nach oben
+HTML dezimal: &#10506;
+HTML hex: &#x290A;
+
+U+2949
+⥉
+Pfeil nach oben mit doppelter Pfeilspitze von kleinem Kreis
+HTML dezimal: &#10569;
+HTML hex: &#x2949;
+
+U+29CB
+⧋
+Dreieck mit Unterstrich
+HTML dezimal: &#10699;
+HTML hex: &#x29CB;
+
+U+2A39
+⨹
+PLUS SIGN IN TRIANGLE
+HTML dezimal: &#10809;
+HTML hex: &#x2A39;
+
+U+2A5E
+⩞
+LOGICAL AND WITH DOUBLE OVERBAR
+HTML dezimal: &#10846;
+HTML hex: &#x2A5E;
+
+U+2B06
+⬆
+Schwarzer Pfeil nach oben zeigend
+HTML dezimal: &#11014;
+HTML hex: &#x2B06;
+
+U+2B11
+⬑
+Pfeil nach links und dann oben zeigend
+HTML dezimal: &#11025;
+HTML hex: &#x2B11;
+
+U+2B71
+⭱
+HTML dezimal: &#11121;
+HTML hex: &#x2B71;
+
+U+2B89
+⮉
+HTML dezimal: &#11145;
+HTML hex: &#x2B89;
+
+U+2B6B
+⭫
+HTML dezimal: &#11115;
+HTML hex: &#x2B6B;
+
+U+2B9D
+⮝
+HTML dezimal: &#11165;
+HTML hex: &#x2B9D;
+
+U+2BC5
+⯅
+HTML dezimal: &#11205;
+HTML hex: &#x2BC5;
+
+U+2BED
+⯭
+HTML dezimal: &#11245;
+HTML hex: &#x2BED;
+
+U+3403
+㐃
+HTML dezimal: &#13315;
+HTML hex: &#x3403;
+
+U+368E
+㚎
+HTML dezimal: &#13966;
+HTML hex: &#x368E;
+
+______________________________________________________________
+
+
+[[&#13966;]] = ANKER
+
+[[㚎]]
+
+<<&#13966;>> = INTERN_VERWEIS
+______________________________________________________________
+
+https://de.wikipedia.org/wiki/Leerzeichen
+
+::
+U+2423	␣	open box	Die offene Schachtel wird beispielsweise in Softwaredokumentation verwendet, um ein Leerzeichen grafisch darzustellen. Sie wird auch in den meisten Handytastaturen dafür benutzt.
+::
+Einsatz in HTML und Verwandten mit CSS
+Mehrere aufeinanderfolgende Leerzeichen im Quelltext von HTML- und ähnlichen Dokumenten werden als ein einzelnes Leerzeichen in der Seite von einem Webbrowser ausgegeben, wenn es nicht explizit verhindert wird. Mit der CSS-Eigenschaft white-space und dem Wert pre-wrap (white-space:pre-wrap) geschieht dies.
+
+Der typographische Weißraum kann hier durch Spationierung bzw. Sperrung oder Skalierung eines Leerzeichens mittels CSS definiert werden. Für den Wortabstand existiert die CSS-Eigenschaft word-spacing und für den Zeichenabstand letter-spacing; sie akzeptieren nummerische Werte gefolgt von einer Maßangabe wie px, ex, em, rem, pt, …
+
+Beispiel Wortabstand:
+
+<div style="word-spacing:2em">Dieser Satz zeigt großen Wortabstand.</div>
+erzeugt:
+Dieser Satz zeigt großen Wortabstand.
+Beispiel Zeichenabstand:
+
+<div style="letter-spacing:1ex">Dieser Satz zeigt großen horizontalen Zeichenabstand.</div>
+erzeugt:
+Dieser Satz zeigt großen horizontalen Zeichenabstand.
+::
+______________________________________________________________
+
+* *Eingekreistes:*
+
+Tensorprodukt, Vektor, der in Seite zeigt
+U+2297
+  
+Kopieren und einfügen
+⊗
+Technical information
+Name	Circled Times
+Unicode-Nummer	
+U+2297
+HTML-Code	
+&#8855;
+CSS-code	
+\2297
+Mnemonik	
+&otimes;
+Block	Mathematische Operatoren
+Unicode-Version:	1.1.5 (1993)
+Eintragung des Zeichens in verschiedenen Schriftarten
+⊗Ihrem Browser ⊗Arial ⊗Times New Roman
+Charakterbeschreibung
+Eingekreiste Zeiten. Mathematische Operatoren.
+Related characters
+⛒ Eingekreiste Querstraßen ⨂ N-Ary Circled-Times-Operator ⮾ Eingekreistes X
+
+Codierung
+Codierung	hex	dec (bytes)	dec	binary
+UTF-8	E2 8A 97	226 138 151	14846615	11100010 10001010 10010111
+UTF-16BE	22 97	34 151	8855	00100010 10010111
+UTF-16LE	97 22	151 34	38690	10010111 00100010
+UTF-32BE	00 00 22 97	0 0 34 151	8855	00000000 00000000 00100010 10010111
+UTF-32LE	97 22 00 00	151 34 0 0	2535587840	10010111 00100010 00000000 00000000
+
+
+Eingekreiste Punktoperator
+direktes Produkt, Vektor, der aus der Seite heraus zeigt
+U+2299
+  
+Kopieren und einfügen
+⊙
+Technical information
+Name	Circled Dot Operator
+Unicode-Nummer	
+U+2299
+HTML-Code	
+&#8857;
+CSS-code	
+\2299
+Block	Mathematische Operatoren
+Unicode-Version:	1.1.5 (1993)
+Eintragung des Zeichens in verschiedenen Schriftarten
+⊙Ihrem Browser ⊙Arial ⊙Times New Roman
+Charakterbeschreibung
+Eingekreiste Punktoperator. Mathematische Operatoren.
+Related characters
+ʘ Lateinischer Buchstabe Bilabial Click ☉ Sonne ⨀ N-Ary Circled-Punkt-Operator
+
+Codierung
+Codierung	hex	dec (bytes)	dec	binary
+UTF-8	E2 8A 99	226 138 153	14846617	11100010 10001010 10011001
+UTF-16BE	22 99	34 153	8857	00100010 10011001
+UTF-16LE	99 22	153 34	39202	10011001 00100010
+UTF-32BE	00 00 22 99	0 0 34 153	8857	00000000 00000000 00100010 10011001
+UTF-32LE	99 22 00 00	153 34 0 0	2569142272	10011001 00100010 00000000 00000000
+_____________________________________________________________
+
+==== asciiDOC_DOKUMENT_IN_DER_IT-WELT:
+
+NOTE: BEACHTE:+++<br/>+++  
++++<br/>+++  &#8226; Unter "WEBintegration" wird hier verstanden:
++++<br/>+++  &#8226; &#8226; Beschreibung der asciiDOs Unterstützung, ...
++++<br/>+++  &#8226; &#8226; &#8226; ... um ein *eigenes Dokument* ins Web zu stellen ...
++++<br/>+++  &#8226; &#8226; &#8226; ... und mit dem Web zu "verzahnen".
++++<br/>+++  
++++<br/>+++  &#8226; Unter "WEBintegration" wird NICHT verstanden:
++++<br/>+++  &#8226;  &#8226; vorliegendes asciiDOC_MIDIspick ins Web zu stellen!!!
+
+* RECHNER: &emsp;&emsp;&emsp;
+* NETZWERK: &emsp;&emsp;&emsp;
+* WEB: &emsp;&emsp;&emsp;
+* MOBIL_OVER_ALL: &emsp;&emsp;&emsp;
+* DOKUMENT_SICHERUNG: &emsp;&emsp;&emsp;
+* DOKUMENT_AUSGABEN: &emsp;&emsp;&emsp;
+
+
+
+
+
+
+
+
+
++++<br/>+++ +++<br/>+++ +++<br/>+++ +++<br/>+++ +++<br/>+++ 
+
+'''
+
+* *ENDE DES DOKUMENTES: "MIDI_SPICKZETTEL_asciiDOC"*
+
+= &#95; &#95; &#95; &#95; &#95; &#95; &#95; &#95; &#95; &#95; &#95; &#95; &#95; &#95; &#95; &#95; &#95; &#95; &#95; &#95; &#95;
+
