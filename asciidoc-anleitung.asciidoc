@@ -9,7 +9,7 @@ asciiDOC <https://asciidoctor.org>
 :toc-title: INHALTSVERZEICHNIS
 :toc-placement: right
 :numbered:
-:imagesdir: ./BILDER/
+:imagesdir: ../BILDER/
 
 '''
 
