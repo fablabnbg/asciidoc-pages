@@ -67,7 +67,7 @@ asciiDOC <https://asciidoctor.org>
 
 |
 |
-|image:FABLAB REGION NÜRNBERG.jpg[FABLAB REGION NÜRNBERG.jpg,200,200]
+|image:flnlogo.svg[Fab Lab Region Nürnberg e. V.,200,200]
 
 |===
 
