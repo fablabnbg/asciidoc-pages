@@ -226,9 +226,6 @@ Komplettes InhaltsVerzeichnis wie hier in: MIDI_SPICKZETTEL_asciiDOC!
 IMPORTANT: BEACHTE: +++<br/>+++ :toc-placement: = +++<br/>+++ &#8226; NICHT_WIRKSAM_IN_CHROME|CHROMIUM!
 
 
-:imagesdir: ../asciiDOC_MIDIspick/BILDER/
-
-
 === TEXTE+FORMATE:
 
 [[ÜBERS]]
