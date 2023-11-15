@@ -1,0 +1,16 @@
+<!-- Include Asciidoctor.js from CDN -->
+<script src="browser/asciidoctor.min.js"></script>
+<link rel="stylesheet" href="css/asciidoctor.css">
+<div id="asciidoc-content"></div>
+<script>
+  // Your raw AsciiDoc source
+  var asciidocSource = "= Document Title\n\nThis is *bold* and _italic_ text.";
+
+  // Render AsciiDoc to HTML
+  var htmlContent = Asciidoctor.convert(asciidocSource);
+
+  // Insert the HTML content into the container
+  document.getElementById('asciidoc-content').innerHTML = htmlContent;
+</script>
+
+

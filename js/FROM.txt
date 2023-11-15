@@ -1,0 +1,2 @@
+https://github.com/asciidoctor/asciidoctor.js/releases/download/v3.0.2/asciidoctor.js.dist.tar.gz
+
