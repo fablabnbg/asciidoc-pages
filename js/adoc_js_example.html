@@ -1,16 +1,23 @@
-<!-- Include Asciidoctor.js from CDN -->
-<script src="browser/asciidoctor.min.js"></script>
-<link rel="stylesheet" href="css/asciidoctor.css">
-<div id="asciidoc-content"></div>
-<script>
-  // Your raw AsciiDoc source
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Embedded Javascript and Asciidoc</title>
+    <script src="https://wiki.fablab-nuernberg.de/adoc/browser/opal.js"></script>
+    <script src="https://wiki.fablab-nuernberg.de/adoc/browser/asciidoctor.js"></script>
+   <link rel="stylesheet" href="https://wiki.fablab-nuernberg.de/adoc/css/asciidoctor.css">
+</head>
+<body>
+<script type="text/javascript">
+  var asciidoctor = Asciidoctor();
+  alert(htmlContent);
   var asciidocSource = "= Document Title\n\nThis is *bold* and _italic_ text.";
-
-  // Render AsciiDoc to HTML
   var htmlContent = Asciidoctor.convert(asciidocSource);
 
-  // Insert the HTML content into the container
-  document.getElementById('asciidoc-content').innerHTML = htmlContent;
+
+  document.getElementById('asciidoc-content').innerHTML = "htmlContent";
 </script>
-
-
+ <div id="asciidoc-content"></div>
+ <p>Hello, <em>Asciidoctor</em></p>
+</body>
+</html>
